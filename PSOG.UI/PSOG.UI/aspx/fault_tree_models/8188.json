@@ -1,0 +1,57 @@
+﻿{"rows":[{
+	"id":1,
+	"reason":"FD-102过滤器油水分离效果差",
+	"action":"更换聚丙烯毡"
+},{
+	"id":2,
+	"reason":"工艺水PH值高（大于10）",
+	"action":"减少注入碱量"
+},{
+	"id":3,
+	"reason":"GA-106泵入口助凝剂注入量少",
+	"state":"closed",
+	"children":[{
+		"id":5,
+		"reason":"注入点阻塞",
+		"action":"检修清理"
+	},{
+		"id":6,
+		"reason":"GA-109故障",
+		"action":"检修处理"
+	},{
+		"id":4,
+		"reason":"GA-106冲程小（小于20%）",
+		"action":"增加冲程"
+	}]
+},{
+	"id":7,
+	"reason":"工艺水烃类含量高",
+	"state":"closed",
+	"children":[{
+		"id":8,
+		"reason":"FCV-127调节阀开度小，汽提量不足（只有在开车时用）",
+		"action":"增加调节阀开度"
+	},{
+		"id":9,
+		"reason":"EA-134A/B换热效果差（DA-101的TI-129温度大于160℃）",
+		"action":"检修清理"
+	}]
+},{
+	"id":10,
+	"reason":"急冷水乳化",
+	"state":"closed",
+	"children":[{
+		"id":11,
+		"reason":"DA-101塔釜TI-123温度高（大于210℃）",
+		"action":"增加侧线采出量"
+	},{
+		"id":12,
+		"reason":"DA-101塔顶TI-124温度高（大于135℃）",
+		"action":"增加汽油回流量"
+	},{
+		"id":13,
+		"reason":"急冷水PH值高（大于10）",
+		"action":"减少碱注入量"
+	}]
+}
+]}

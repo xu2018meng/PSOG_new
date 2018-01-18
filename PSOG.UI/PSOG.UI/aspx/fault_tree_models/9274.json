@@ -1,0 +1,56 @@
+﻿{"rows":[{
+	"id":1,
+	"reason":"DA-202塔釜温度TI-230低（低于65℃）",
+	"state":"closed",
+	"children":[{
+		"id":2,
+		"reason":"TCV-204阀位开度小（小于30%）",
+		"action":"增大调节阀开度"
+	}]
+},{
+	"id":3,
+	"reason":"DA-1202塔釜温度TI-1230低（低于75℃）",
+	"state":"closed",
+	"children":[{
+		"id":4,
+		"reason":"TCV-1204阀位开度小（小于30%）",
+		"action":"增大调节阀开度"
+	}]
+},{
+	"id":5,
+	"reason":"DA-451塔釜温度TI-2487低（低于69℃）",
+	"state":"closed",
+	"children":[{
+		"id":6,
+		"reason":"FCV-2401阀位开度小（小于30%）",
+		"action":"增大调节阀开度"
+	}]
+},{
+	"id":7,
+	"reason":"DA-401塔釜温度TI-407低（低于69℃）",
+	"state":"closed",
+	"children":[{
+		"id":8,
+		"reason":"塔釜换热器EA-401加热量不足",
+		"state":"closed",
+	        "children":[{
+		       "id":10,
+		       "reason":"FCV-422阀位开度小（小于30%）",
+		       "action":"增大调节阀开度"
+	        }]
+	},{
+		"id":9,
+		"reason":"塔釜换热器EA-401B加热量不足",
+		"state":"closed",
+	        "children":[{
+		       "id":12,
+		       "reason":"FCV-482阀位开度小（小于30%）",
+		       "action":"增大调节阀开度"
+                },{
+                	"id":11,
+	                "reason":"急冷水温度TIC114低（低于75℃）",
+                	"action":"增大调节阀开度"
+	        }]
+	}]
+}
+]}

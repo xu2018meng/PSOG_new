@@ -1,0 +1,58 @@
+<anychart>
+  <settings>
+    <animation enabled="True" />
+  </settings>
+  <charts>
+    <chart plot_type="CategorizedVertical">
+      <data_plot_settings default_series_type="Bar">
+        <bar_series point_padding="0.2" group_padding="1">
+          <label_settings enabled="true">
+            <background enabled="false" />
+            <font color="DarkColor(%Color)" />
+            <format>{%YValue}{numDecimals:0}</format>
+            <effects>
+              <drop_shadow enabled="true" opacity="1" />
+            </effects>
+          </label_settings>
+          <tooltip_settings enabled="True">
+            <format>所占个数: {%YValue}{numDecimals:0}
+风险等级: {%Name}{numDecimals:0}</format>
+            <background>
+              <border color="DarkColor(%Color)" />
+            </background>
+            <font color="DarkColor(%Color)" />
+          </tooltip_settings>
+        </bar_series>
+      </data_plot_settings>
+      <chart_settings>
+        <title enabled="true">
+          <text>各个装置的风险分布</text>
+        </title>
+        <axes>
+          <x_axis>
+            <title enabled="true">
+              <text>风险等级</text>
+            </title>
+          </x_axis>
+          <y_axis>
+            <title enabled="true">
+              <text>风险等级程度</text>
+            </title>
+          </y_axis>
+        </axes>
+        <legend enabled="true" position="Right" align="Near">
+          <format>{%Icon} {%Name}</format>
+          <template>
+          </template>
+          <title enabled="false" />
+          <columns_separator enabled="false" />
+          <background>
+            <inside_margin left="10" right="10" />
+          </background>
+        </legend>
+      </chart_settings>
+      <data>
+      </data>
+    </chart>
+  </charts>
+</anychart>

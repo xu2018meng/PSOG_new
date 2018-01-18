@@ -1,0 +1,71 @@
+﻿{"rows":[{
+	"id":1,
+	"reason":"二元制冷系统中H2、CH4含量过高",
+	"state":"closed",
+	"children":[{
+		"id":2,
+		"reason":"自FA-310至二元制冷系统液相接甲烷管线手阀内漏或没关系",
+		"action":"关紧"
+	},{
+		"id":3,
+		"reason":"自FA-310至二元制冷系统气相接甲烷管线手阀内漏或没关系",
+		"action":"关紧"
+	},{
+		"id":4,
+		"reason":"自FA-301至FA-351接氢气管线手阀内漏或者没关系",
+		"action":"关紧"
+	},{
+		"id":5,
+		"reason":"自FA-301至FA-352接氢气管线手阀内漏或没关系",
+		"action":"关紧"
+	}]
+},{
+	"id":6,
+	"reason":"GB-351出口冷却器EA-351不能提供足够冷量",
+	"state":"closed",
+	"children":[{
+		"id":7,
+		"reason":"EA-351冷却回水手阀开度不够",
+		"action":"开大手阀"
+	},{
+		"id":8,
+		"reason":"循环冷却水温度升高",
+		"action":"开大手阀"
+	},{
+		"id":9,
+		"reason":"EA-351冷却水压力低",
+		"action":"开大手阀"
+	}]
+},{
+	"id":10,
+	"reason":"二元制冷压缩机一段吸入压力高（PIC2323>30kp）",
+	"state":"closed",
+	"children":[{
+		"id":11,
+		"reason":"GB-351透平转速过高（SI2301>13000RPM）",
+		"action":"降低透平转速"
+	}]
+},{
+	"id":12,
+	"reason":"GB-351出口二元冷剂收集罐FA-354液面LIC2312过高（LIC2312>35%）",
+	"state":"closed",
+	"children":[{
+		"id":13,
+		"reason":"调节阀TCV2304开度过小（TCV2304>-60摄氏度）",
+		"action":"增大开度"
+	},{
+		"id":14,
+		"reason":"新冷箱温度过高",
+		"action":"   "
+	}]
+},{
+	"id":15,
+	"reason":"GB-351压缩机负荷过大",
+	"state":"closed",
+	"children":[{
+		"id":16,
+		"reason":"各二元冷剂用户对冷量需求过大",
+		"action":"  "
+	}]
+}
+]}

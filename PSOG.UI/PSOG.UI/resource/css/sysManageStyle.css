@@ -1,0 +1,53 @@
+﻿.sysMan_user 
+{
+	background: url(../img/sysMan/user.png) no-repeat;
+}
+.sysMan_department
+{
+	background: url(../img/sysMan/department.png) no-repeat;
+}
+.sysMan_menu 
+{
+	background: url(../img/sysMan/menu.png) no-repeat;
+}
+.sysMan_role
+{
+	background: url(../img/sysMan/role.png) no-repeat;
+}
+.sysMan_root
+{
+	background: url(../img/sysMan/root.png) no-repeat;
+}
+.sysMan_organ
+{
+	background: url(../img/sysMan/organ.png) no-repeat;
+}
+.sysMan_plant
+{
+	background: url(../img/sysMan/plant.png) no-repeat;
+}
+
+.sysMan_plant_click
+{
+	background: url(../img/sysMan/plant_click.png) no-repeat;
+}
+
+.sysMan_homepage
+{
+	background: url(../img/sysMan/homepage.png) no-repeat;
+}
+
+.sysMan_gztype
+{
+	background: url(../img/sysMan/类别.png) no-repeat;
+}
+
+.sysMan_sort
+{
+	background: url(../img/sysMan/1.png) no-repeat;
+}
+
+.sysMan_leafnode
+{
+	background: url(../img/sysMan/leaf.png) no-repeat;
+}

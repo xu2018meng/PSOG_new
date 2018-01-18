@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html  >
+	<head>
+		<title></title>
+<style>
+        body{
+           overflow:auto;
+           
+            SCROLLBAR-FACE-COLOR: #cecece; 
+            SCROLLBAR-HIGHLIGHT-COLOR: white; 
+            SCROLLBAR-SHADOW-COLOR: white; 
+            SCROLLBAR-3DLIGHT-COLOR: white; 
+            SCROLLBAR-ARROW-COLOR: white; 
+            SCROLLBAR-TRACK-COLOR: white; 
+            SCROLLBAR-DARKSHADOW-COLOR: white; 
+            }
+</style>
+		<script type="text/javascript">
+		function getEquipUrl(url)
+		{
+		     var chart = document.getElementById("chart");
+		     
+             chart.innerHTML="<iframe name='main' id='name' frameBorder=0 width='120%'height='150%' src='"+url+"'/></iframe>";
+		}
+		</script>
+	</head>
+	<body >
+	 <div id="chart" style="width:auto;height:auto"></div>
+	</body>
+</html>

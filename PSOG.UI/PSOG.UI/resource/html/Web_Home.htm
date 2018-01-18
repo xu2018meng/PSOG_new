@@ -1,0 +1,601 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+ <head>
+  <title></title>
+
+        <script type="text/javascript">
+            //工艺
+            function getValue(obj)
+            {
+               // alert("qqqq");
+              //  alert(obj.innerText);
+               // alert(obj.id);
+               // alert(obj.id);
+               
+                window.external.mainHomeProcessButton(obj.innerText);//点击按钮
+            }
+            //设备
+            function getValue2(obj)
+            {
+               // alert("qqqq");
+              //  alert(obj.innerText);
+                //alert(obj.id);
+                //alert(obj.id);
+                //alert(obj.value)
+                window.external.mainHomeEquipButton(obj.innerText);//点击按钮
+            }
+            //仪表
+            function getValue3(obj)
+            {
+               // alert("qqqq");
+                alert(obj.innerText);
+                //alert(obj.id);
+                //alert(obj.id);
+                //alert(obj.value)
+            }
+            //报警
+            function getValue4(obj)
+            {
+               // alert("qqqq");
+                alert(obj.innerText);
+                alert(obj.id);
+                //alert(obj.id);
+                //alert(obj.value)
+            }
+            //工艺检查下拉内容
+            function downLIst(e)
+            {
+              var para=document.createElement("div");
+               
+//             var  X = e.offsetTop; 
+//             alert(X);
+//            if(e.offsetParent !=  null)  
+//            {
+//              X += getTop(e.offsetParent); 
+//            }
+//            var Y = e.offsetLeft; 
+//            if(e.offsetParent != null) 
+//            {
+//               Y += getLeft(e.offsetParent); 
+//            }
+
+
+           //   para.setAttribute("id","x");
+           //   $("#x").
+//              alert(X+Y);
+            }
+            function show(a)
+           //function show()
+            {
+          
+              // var jsonStr = "[{'name':'工艺','content';[{ 'name':'反应','state':'正常'},{'name':'再生','state':'异常'}]}]";
+              // var jsonStr = "[{ 'id':'1','name':'工艺','content':[{'sid':'id1','name':'反应','state':'正常'},{'sid':'id1','name':'再生','state':'异常'}]}]";
+             //   var jsonStr = "[{'id':2,'name':'报警','state':'异常',content:[{'sid':'平均报警率','name':'20%','state':'0'},{'sid':'峰值报警率','name':'40%','state':'1'},{'sid':'扰动报警率','name':'60%','state':'1'}]}]";
+             //   //"{'id':2,'name':'工艺','state':'异常',content:[{'sid':'id','name':'原油带水','state':'0'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'}]},";
+               /// "{'id':2,'name':'设备','state':'异常',content:[{'sid':'id','name':'原油带水','state':'0'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'}]},"
+               // "{'id':2,'name':'仪表','state':'异常',content:[{'sid':'id','name':'原油带水','state':'0'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'}]}"
+               // "]}]";
+               // alert(a);
+                var jsonStr = "["+a+"]";
+               
+                 jsonObj = eval(jsonStr);
+                // alert(jsonObj);
+               // alert(jsonObj[0].name);
+               // alert(jsonObj[0].name+"..."+jsonObj[1].name)
+                var len = jsonObj.length;
+                //alert(len);
+                var cell = null;
+                var len2 = 0;
+                var str = "";
+               
+                for(var i = 0;i<len;i++)
+                {
+                   //alert(jsonObj[i].name);
+                  // alert(i);
+                    if(jsonObj[i].name=="工艺")
+                    {
+                    
+                        cell = document.getElementById("technics");
+                        len2 = jsonObj[i].content.length;
+                        if(len2>6)
+                        {
+                            len2 = 6;
+                        }
+                        for(var j = 0;j<len2;j++)
+                        {   if(jsonObj[i].content[j].state=="正常" )
+                            {
+                                str = str + "<label  onclick='getValue(this)' style='font-size:x-small;cursor:pointer;font-family:微软雅黑;'>"+jsonObj[i].content[j].name+"</label>";
+                            }
+                            else 
+                            {
+                                str = str + "<label onclick='getValue(this)' style='color:red;font-size:x-small;cursor:pointer;font-family:微软雅黑;'>"+jsonObj[i].content[j].name+"</label>";//<img style='height:11px;' onclick='downLIst(this)' src='resource/img/sj_03.png' />
+                               // alert(str);
+                            }
+                            if(j!=len2-1)
+                            {
+                                str = str+"<label style='font-size:small;cursor:pointer;font-family:微软雅黑;'>&nbsp;&nbsp;&nbsp;&nbsp;</label>";//竖线
+                            }
+                        }
+                       
+                        cell.innerHTML =str;
+                      //   alert(cell.innerHTML);
+                         
+                    }
+                    else if(jsonObj[i].name=="设备")
+                    {
+                        cell = document.getElementById("device");
+                        len2 = jsonObj[i].content.length;
+                       // alert(len2);
+                        if(len2>5)
+                        {
+                            len2 = 5;
+                        }
+                        str="";
+                        for(var j = 0;j<len2;j++)
+                        {   if(jsonObj[i].content[j].state=="正常")
+                            {
+                                str = str + "<label  onclick='getValue2(this)' style='font-size:small;cursor:pointer;font-family:微软雅黑;'>"+jsonObj[i].content[j].name+"</label>";
+                            }
+                            else
+                            {
+                                str = str + "<label  onclick='getValue2(this)' style='color:red;font-size:small;cursor:pointer;font-family:微软雅黑;'>"+jsonObj[i].content[j].name+"</label>";
+                            }
+                            if(j!=len2-1)
+                            {
+                                str = str+"<label style='font-size:small;cursor:pointer;font-family:微软雅黑;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>";
+                            }
+                        }
+                        if(len2>0){
+                        cell.innerHTML =str;
+                        }
+                    }
+                    else if(jsonObj[i].name=="报警")
+                    {
+                        
+                        cell = document.getElementById("Alarmcount");
+                        len2 = jsonObj[i].content.length;
+                       cell.innerText =len2;
+                         if(len2>3)
+                        {
+                            len2 = 3;
+                        }
+                        str="";
+                        var InsertTable=document.getElementById("Alarmtable");
+                        for(var j = 0;j<len2;j++)
+                        {   
+                            var newRow=InsertTable.insertRow();
+                            newRow.insertCell().innerText=jsonObj[i].content[j].num;
+                            newRow.insertCell().innerText=jsonObj[i].content[j].item;
+                            newRow.insertCell().innerText=jsonObj[i].content[j].value;
+                            newRow.insertCell().innerText=jsonObj[i].content[j].state;
+                            newRow.insertCell().innerText=jsonObj[i].content[j].startTime;
+                        
+                        }
+                        
+                      }
+                    else if(jsonObj[i].name=="质量分析")
+                    {
+                    
+                        len2 = jsonObj[i].content.length;
+                        if(len2>3)
+                        {
+                            len2 = 3;
+                        }
+                        str="";
+                        var InsertTable=document.getElementById("quality");
+                        for(var j = 0;j<len2;j++)
+                        {   
+                            var newRow=InsertTable.insertRow();
+                            newRow.insertCell().innerText=jsonObj[i].content[j].num;
+                            newRow.insertCell().innerText=jsonObj[i].content[j].modelName;
+                            newRow.insertCell().innerText=jsonObj[i].content[j].Cjname;
+                            newRow.insertCell().innerText=jsonObj[i].content[j].projectName;
+                            newRow.insertCell().innerText=jsonObj[i].content[j].value;
+                            newRow.insertCell().innerText=jsonObj[i].content[j].units;
+                            newRow.insertCell().innerText=jsonObj[i].content[j].status;
+                            newRow.insertCell().innerText=jsonObj[i].content[j].high;
+                            newRow.insertCell().innerText=jsonObj[i].content[j].low;
+                            newRow.insertCell().innerText=jsonObj[i].content[j].time;
+                                               }
+                    }
+                    }
+//alert("fff");
+            }
+           function test(a,b) 
+            {
+                    
+                
+            }
+            function test2() 
+            {  
+              
+            }
+            tech = 0;
+            //工艺
+            function extend(obj) 
+            {  
+                tech++;
+                //alert(tech);
+             //   var jsonStr = "[{'id':2,'name':'工艺','state':'异常',content:[{'sid':'id','name':'反应','state':'0'},{'sid':'id2','name':'再生','state':'1'},{'sid':'id2','name':'分馏','state':'1'},{'sid':'id2','name':'分馏','state':'1'},{'sid':'id2','name':'分馏','state':'1'},{'sid':'id2','name':'堆积','state':'1'},{'sid':'id2','name':'分馏','state':'1'},{'sid':'id2','name':'分馏','state':'1'},{'sid':'id2','name':'分馏','state':'1'},{'sid':'id2','name':'分馏','state':'1'},{'sid':'id2','name':'分馏','state':'1'},{'sid':'id2','name':'分馏','state':'1'},{'sid':'id2','name':'分馏','state':'1'}]}]";
+              //  var jsonObj = eval(jsonStr);
+                  //alert(jsonObj);
+                var len = jsonObj.length;
+                var cell = null;
+                var len2 = 0;
+                var str = "";
+
+                for(var i = 0;i<len;i++)
+                {
+                    if(jsonObj[i].name=="工艺")
+                    {
+                        cell = document.getElementById("technics");
+                        //alert(cell.childNodes.length); 
+                        len2 = jsonObj[i].content.length;
+                         if(len2<6)
+                        {
+                            return null;
+                        }
+                        if(tech%2==0)
+                        {
+                            len2=6;
+                        }
+                        for(var j = 0;j<len2;j++)
+                        {   
+                            if(j%6==0&&j!=0)
+                            {
+                                str = str+"<br />";
+                            }
+                            if(len2%6!=0)
+                            {
+                                if(j!=len2-1&&j%6!=0)
+                                {
+                                    str = str+"<label style='font-size:small;cursor:pointer;' onclick='getValue(this)'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>";//竖线
+                                }
+                            }
+                            if(jsonObj[i].content[j].state=="正常")
+                            {
+                                str = str + "<label  style='font-size:small;cursor:pointer;' onclick='getValue(this)'>"+jsonObj[i].content[j].name+"</label>";
+                            }
+                            else
+                            {
+                                str = str + "<label  style='color:red;font-size:small;cursor:pointer;' onclick='getValue(this)'>"+jsonObj[i].content[j].name+"</label>";
+                            }
+                            if(len2%6==0)
+                            {
+                                if(j!=len2-1)
+                                {
+                                    str = str+"<label style='font-size:small;cursor:pointer;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>";//竖线
+                                }
+                            }
+
+                            
+                        }
+                        cell.innerHTML =str;
+                         
+                    }
+                 }
+              //tech=1;
+            }
+            device = 0;
+            //设备
+            function extend2(obj)
+            {
+                device++;
+                 var jsonStr = "[{'id':2,'name':'设备','state':'异常',content:[{'sid':'id','name':'反应器','state':'0'},{'sid':'id2','name':'加热炉','state':'1'},{'sid':'id2','name':'脱硫器','state':'1'},{'sid':'id2','name':'干燥器','state':'1'},{'sid':'id2','name':'反应堆','state':'1'},{'sid':'id2','name':'干馏器','state':'1'},{'sid':'id2','name':'脱硫器','state':'1'},{'sid':'id2','name':'脱硫器','state':'1'},{'sid':'id2','name':'碳堆积','state':'1'},{'sid':'id2','name':'脱硫器','state':'1'},{'sid':'id2','name':'脱硫器','state':'1'},{'sid':'id2','name':'脱硫器','state':'1'},{'sid':'id2','name':'脱硫器','state':'1'}]}]";
+                //var jsonObj = eval(jsonStr);
+                  //alert(jsonObj);
+                var len = jsonObj.length;
+                var cell = null;
+                var len2 = 0;
+                var str = "";
+
+                for(var i = 0;i<len;i++)
+                {
+                    if(jsonObj[i].name=="设备")
+                        {
+                            cell = document.getElementById("device");
+                            //alert("设备"+cell.childNodes.length); 
+                            len2 = jsonObj[i].content.length;
+//                            if(obj.id!="设备")
+//                            {
+//                                if(len2>5)
+//                                {
+//                                    len2 = 5;
+//                                 }
+//                             }
+                            if(len2<5)
+                            {
+                                return null;
+                            }
+                            if(device%2==0)
+                            {
+                                len2 = 5;
+                            }
+                            for(var j = 0;j<len2;j++)
+                            {   
+                                 if(j%5==0&&j!=0)
+                                {
+                                    str = str+"<br />";
+                                }
+                                if(j%5!=0)
+                                {
+                                    str = str+"<label style='font-size:small;cursor:pointer;'>&nbsp;&nbsp;&nbsp;&nbsp;</label>";
+                                }
+                                if(jsonObj[i].content[j].state=="正常")
+                                {
+                                    str = str + "<label  style='font-size:small;cursor:pointer;' onclick='getValue2(this)'>"+jsonObj[i].content[j].name+"</label>";
+                                }
+                                else
+                                {
+                                    str = str + "<label  style='color:red;font-size:small;cursor:pointe;r' onclick='getValue2(this)'>"+jsonObj[i].content[j].name+"</label>";
+                                }
+
+                            }
+                            cell.innerHTML =str;
+                        }
+                    }
+                    
+            }
+            appearence = 0;
+            //仪表
+            function extend3(obj)
+            {
+                appearence++;
+                var jsonStr = "[{'id':2,'name':'仪表','state':'异常',content:[{'sid':'id','name':'FIC1201','state':'0'},{'sid':'id2','name':'FIC1201','state':'1'},{'sid':'id2','name':'FIC1201','state':'1'},{'sid':'id2','name':'FIC1201','state':'1'},{'sid':'id2','name':'FIC1201','state':'1'},{'sid':'id2','name':'FIC1201','state':'1'},{'sid':'id2','name':'FIC1201','state':'1'},{'sid':'id2','name':'FIC1201','state':'1'},{'sid':'id2','name':'FIC1201','state':'1'},{'sid':'id2','name':'FIC1201','state':'1'},{'sid':'id2','name':'FIC1201','state':'1'},{'sid':'id2','name':'FIC1201','state':'1'},{'sid':'id2','name':'FIC1201','state':'1'}]}]";
+               // var jsonObj = eval(jsonStr);
+                  //alert(jsonObj);
+                var len = jsonObj.length;
+                var cell = null;
+                var len2 = 0;
+                var str = "";
+               
+                for(var i = 0;i<len;i++)
+                {
+                   if(jsonObj[i].name=="仪表")
+                    {
+                        cell = document.getElementById("appearance");
+                       // alert("仪表"+cell.childNodes.length); 
+                        len2 = jsonObj[i].content.length;
+//                        if(obj.id!="仪表")
+//                        {
+//                            if(len2>5)
+//                            {
+//                                len2 = 5;
+//                             }
+//                         }
+                        if(len2<3)
+                        {
+                            return null;
+                        }
+                        if(appearence%2==0)
+                        {
+                            len2 = 3;
+                        }
+                        for(var j = 0;j<len2;j++)
+                        {  
+                            
+                             if(j%3==0&&j!=0)
+                            {
+                                str = str+"<br />";
+                            }
+                            if(j%3!=0)
+                            {
+                                str = str+"<label style='font-size:small;'>&nbsp;&nbsp;|&nbsp;&nbsp;</label>";
+                            }
+                            str = str + "<label  style='font-size:small;' onclick='getValue3(this)'>"+jsonObj[i].content[j].name+"</label>";
+
+                            
+                        }
+                        cell.innerHTML =str;
+                    }
+                    }
+                   
+            }
+        </script>
+        <link href="css/mycss.css" rel="stylesheet" type="text/css" />
+        <link type="text/css" rel="stylesheet" href="css/Style.css" />
+        <script language="javascript" type="text/javascript" src="js/jquery.js"/>
+         <script language="javascript" type="text/javascript" src="js/jquery-1.6.2.min.js">
+</script>
+        <style type="text/css">
+		    html, body, #chartContainer {
+			    width: 100%;
+			    height: 98%;
+			    padding: 0;
+			    margin: 0;
+			    font-family:微软雅黑;
+		    }
+           body{
+           overflow:auto;
+           
+            SCROLLBAR-FACE-COLOR: #cecece; 
+            SCROLLBAR-HIGHLIGHT-COLOR: white; 
+            SCROLLBAR-SHADOW-COLOR: white; 
+            SCROLLBAR-3DLIGHT-COLOR: white; 
+            SCROLLBAR-ARROW-COLOR: white; 
+            SCROLLBAR-TRACK-COLOR: white; 
+            SCROLLBAR-DARKSHADOW-COLOR: white; 
+            }
+           
+	    </style>
+ </head>
+ <body  style="background-image:url('resource/img/background.jpg');">
+       <div align="center" style="overflow:auto;margin:0 50% auto 50%;padding-top:20px;margin:10 60 0 0;font-family:微软雅黑;">
+           &nbsp;</div>
+           <table border="0" cellpadding="5" cellspacing="0" style="width: auto;text-align:center;margin:0 40px auto 30px;" >
+           <tr>
+           <td style="height: 308px; width: auto;">
+			<table style="margin-left: 30px; position: relative;" id="table1">
+                <tr >
+                      <td rowspan="2" style="width:193px;"> 
+                        <img src='resource/img/首页_工艺.jpg'  alt="工艺" style="width: 46px; height: 45px" id="IMG1"  />&nbsp;
+                          <label style="height:20;margin:0px 0px 20px 0px;font-size:small;font-family:微软雅黑;">工艺监测</label></td>
+                     <td  style="text-align:left; width: 791px; height: 11px;" >
+                         <label style="font-size:12pt;font-family:微软雅黑;">
+                            运行状态</label></td>
+                </tr>
+                <tr>
+                    <td id="technics">
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="1" style="width: 193px;">
+                       
+                        </td>
+                    <td style="font-size:12pt; font-family: 微软雅黑;">
+                        质量分析</td>
+                </tr>
+                <tr>
+                    <td rowspan="1" style="width: 193px;">
+                    </td>
+                    <td rowspan="1">
+                        &nbsp;<table  id="quality"  style="text-align:center; display: inline;">
+                            <tr>
+                                <td style="width: 50px; font-family: 微软雅黑; height: 19px; text-align: center; background-image: url(resource/img/X-_bg.gif); background-repeat: repeat-x;">
+                                    序号</td>
+                                <td style="width: 90px; font-family: 微软雅黑; height: 19px; text-align: center; background-image: url(resource/img/X-_bg.gif); background-repeat: repeat-x;">
+                                    样品名称</td>
+                                <td style="width: 90px; font-family: 微软雅黑; height: 19px; text-align: center; background-image: url(resource/img/X-_bg.gif); background-repeat: repeat-x;">
+                                    采样名称</td>
+                                <td style="width: 90px; font-family: 微软雅黑; height: 19px; text-align: center; background-image: url(resource/img/X-_bg.gif); background-repeat: repeat-x;">
+                                    分析项目</td>
+                                <td style="width: 90px; font-family: 微软雅黑; height: 19px; text-align: center; background-image: url(resource/img/X-_bg.gif); background-repeat: repeat-x;">
+                                    实时值</td>
+                                <td style="width: 50px; font-family: 微软雅黑; height: 19px; text-align: center; background-image: url(resource/img/X-_bg.gif); background-repeat: repeat-x;">
+                                    单位</td>
+                                <td style="width: 50px; font-family: 微软雅黑; height: 19px; text-align: center; background-image: url(resource/img/X-_bg.gif); background-repeat: repeat-x;">
+                                    状态</td>
+                                <td style="width: 50px; font-family: 微软雅黑; height: 19px; text-align: center; background-image: url(resource/img/X-_bg.gif); background-repeat: repeat-x;">
+                                    高限</td>
+                                <td style="width: 50px; font-family: 微软雅黑; height: 19px; text-align: center; background-image: url(resource/img/X-_bg.gif); background-repeat: repeat-x;">
+                                    低限</td>
+                                <td style="width: 90px; font-family: 微软雅黑; height: 19px; text-align: center; background-image: url(resource/img/X-_bg.gif); background-repeat: repeat-x;">
+                                    时间
+                                </td>
+                            </tr>
+                        </table>
+                        </td>
+                </tr>
+               <!-- <tr>
+                    <td rowspan="1" style="width: 103px; height: 20px; text-align: left">
+                    </td>
+                    <td style="font-size:x-small;width: 541px; font-family: 微软雅黑; height: 20px">
+                    &nbsp; &nbsp; &nbsp; &nbsp;
+                        序号 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;样品名称 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 采样名称 &nbsp;
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                        &nbsp;分析项目 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;值
+                    </td>
+                    <td style="height: 20px">
+                    </td>
+                </tr>-->
+                <tr  id="ArtLine">
+                    <td colspan="2" style="text-align:left; height: 19px;">
+                        &nbsp;<img src='resource/img/line.jpg' style="padding-left:60px; width: 845px;"  alt="line" /></td>
+                </tr>
+            </table>
+            <br />
+            <table style="text-align:left;margin:0 auto auto 40; width: auto;" id="table2">
+                <tr>
+                    <td rowspan="2" style="text-align:left;width:203px"> 
+                        <img src='resource/img/首页_设备.jpg'  alt="设备" style="width: 46px; height: 45px" />
+                        <label style="height:20;margin:0px 0px 20px 0px;font-size:small;font-family:微软雅黑;">
+                            设备监测</label></td>
+                    <td colspan="5" style="text-align:left; height: 14px;" >
+                        <label style="font-size:small;font-family:微软雅黑;">
+                            运行状态</label></td>
+                </tr>
+                <tr>
+                       <td id="device" style="text-align:left;width:791px; height: 27px;">
+                            <!--<label style="font-size:small;color:Red" onclick='getValue3(this)'>反应器&nbsp;&nbsp;</label>
+                            <label style="font-size:small;">|</label>
+                            <label style="font-size:small;" onclick='getValue2(this)'>&nbsp;&nbsp;加热炉&nbsp;&nbsp; </label>
+                            <label style="font-size:small;">|</label>
+                            <label style="font-size:small;" onclick='getValue2(this)'>&nbsp;&nbsp;分馏器 &nbsp;&nbsp;</label>
+                            <label style="font-size:small;">|</label>
+                            <label style="font-size:small;" onclick='getValue2(this)'>&nbsp;&nbsp;脱硫器 &nbsp;&nbsp;</label>
+                            <label style="font-size:small;">|</label>
+                            <label style="font-size:small;" onclick='getValue2(this)'>&nbsp;&nbsp;铀反应</label>&nbsp;&nbsp;-->
+                            <!--<img src='../testwin/resource/img/展开.jpg'  style="padding-left:auto"  onclick="extend()" alt="展开" />-->
+                        </td>
+
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:left; height: 18px;">
+                        <img src='resource/img/line.jpg' style="padding-left:60px; width: 845px;"   alt="line" />
+                    </td>
+                </tr>
+            </table>
+             <br />
+            <!--<table style="text-align:left;" id="table3">
+                <tr>
+                    <td rowspan="2" style="text-align:right;width:60px"> 
+                        <img src='resource/img/首页_仪表.jpg'  alt="仪表" />
+                    </td>
+                    <td colspan="5" style="text-align:left" >
+                        <label style="font-size:medium;font-weight:bold">仪表</label>
+                    </td>
+                </tr>
+                <tr>
+                       <td id="appearance" style="text-align:left;width:450px;">
+                            <label style="font-size:small;" onclick='getValue3(this)'>FIC1201&nbsp;&nbsp;</label>
+                            <label style="font-size:small;">|</label>
+                            <label style="font-size:small;" onclick='getValue3(this)'>&nbsp;&nbsp;FIC1202&nbsp;&nbsp; </label>
+                            <label style="font-size:small;">|</label>
+                            <label style="font-size:small;" onclick='getValue3(this)'>&nbsp;&nbsp;FIC1203 &nbsp;&nbsp;</label>
+                            <!--<img src='../testwin/resource/img/展开.jpg'  style="padding-left:auto"  onclick="extend()" alt="展开" />
+                        </td>
+                        <td >
+                             <img src='resource/img/展开.jpg'  style="padding-left:auto" id="Img1" onclick="extend3(this)"  alt="展开" />
+                        </td>  
+
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align:left">
+                        <img src='resource/img/line.jpg' style="padding-left:60px"   alt="line" />
+                    </td>
+                </tr>
+            </table>
+             <br />-->
+            
+            <table  id="table4" style="width:auto;margin: 0px auto auto 40;">
+                <tr>
+                    <td rowspan="2" style="text-align:left; width: 200px; "> &nbsp;<img  src='resource/img/首页_报警.jpg'  alt="报警" style="width: 43px; height: 44px;" />&nbsp;&nbsp;<label style="height:20px;margin:0px 0px 20px 0px;font-size:small;font-family:微软雅黑;">报警分析</label></td>
+                    <td style="height: 7px; font-size: small; font-family: 微软雅黑; width: 791px;" >
+                        当前报警<label style="font-size:small; font-family: 微软雅黑; color: red; height: 10px;" id="Alarmcount"></label>个</td>
+                </tr>
+                <tr>
+                    <td style="width: 791px;  text-align: left;font-size:x-small; font-family: 微软雅黑;" colspan="" rowspan="2">
+                        <table  id="Alarmtable"  style="text-align:center; display: inline;">
+                            <tr>
+                                <td style="width: 137px; font-family: 微软雅黑; height: 24px; text-align: center; background-image: url(resource/img/X-_bg.gif); background-repeat: repeat-x;">
+                                    序号</td>
+                                <td style="width: 137px; font-family: 微软雅黑; height: 24px; text-align: center; background-image: url(resource/img/X-_bg.gif); background-repeat: repeat-x;">
+                                    位号</td>
+                                <td style="width: 199px; font-family: 微软雅黑; height: 24px; text-align: center; background-image: url(resource/img/X-_bg.gif); background-repeat: repeat-x;">
+                                    值</td>
+                                <td style="width: 137px; font-family: 微软雅黑; height: 24px; text-align: center; background-image: url(resource/img/X-_bg.gif); background-repeat: repeat-x;">
+                                    状态</td>
+                                <td style="width: 137px; font-family: 微软雅黑; height: 24px; text-align: center; background-image: url(resource/img/X-_bg.gif); background-repeat: repeat-x;">
+                                    开始时间</td>
+                            </tr>
+                        </table>
+                        </td>
+                </tr>
+                <tr>
+                    <td rowspan="1" style="width: 200px; height: 6px; text-align: left">
+                        &nbsp;
+                    </td>
+                </tr>
+                
+                <tr >
+                    <td colspan="2" style="text-align:left; height: 22px;">
+                        <img src='resource/img/line.jpg' style="padding-left:60px; width: 840px; height: 7px;"  alt="line" />
+                    </td>
+                </tr>
+                </table>
+                </td>
+                </tr>
+            </table> 
+           
+ </body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html style="overflow:auto;" >
+ <head>
+  <title></title>
+
+        <script type="text/javascript">
+             function GetValue(obj)
+            {
+		        var arr = obj.id.split(',');
+		        window.external.ShowDetail(arr[0],arr[1],obj.value);
+
+            }
+           function test(a,b) 
+            {
+                //alert(a);
+                arr = a.split(',');  
+                var len = arr.length;
+                var table = document.getElementById("tableid");
+                var row = table.insertRow(-1);
+                var j = 0;
+                for(var i = 0; i < len; i++)
+                {
+                    if(i!=0&&i%9==0)
+                    {
+                        var cell = row.insertCell(3);
+                        //alert("1111");
+                        var str = "<input type='button' id='test' value='更多' style='cursor:pointer'  onclick='test2()'/>";
+                        cell.innerHTML=str;
+                       // alert("22222");
+                        break;
+                    }
+                    if(i%3==0)
+                    {
+                        if(i==len-1)
+                         {
+                            break;
+                         }
+                        row.height="30";
+                        var cell = row.insertCell(j);
+                        cell.innerHTML = "<input type='button' id='"+arr[i]+","+arr[i+1]+"' value='"+arr[i+2]+"' style='background-color:Crimson;color:white;cursor:pointer;width:114px' onclick='GetValue(this)'/>";
+                        j = j+1;
+                    }
+                }
+                var chart = document.getElementById("chart");
+                chart.innerHTML="<iframe  target='_parent'name='main' id='name' frameBorder=0 width='105%'height='130%' src='"+b+"'/></iframe>";
+                //var s="<iframe src='"+b+"'></iframe>";
+               // alert(s);
+            }
+            function test2() 
+            {  
+
+                var len = arr.length;
+                var table = document.getElementById("tableid");
+                table.firstChild.removeNode(true)
+                var row = table.insertRow(-1);
+                var j = 0;
+                
+                for(var i = 0; i < len; i++)
+                {
+                    if(i!=0&&i%9==0)
+                    {
+                        row = table.insertRow(-1);
+                        j=0;
+                    }
+                    if(i%3==0)
+                    {
+                        if(i==len-1)
+                         {
+                            break;
+                         }
+                        row.height="30";
+                        var cell = row.insertCell(j);
+                        cell.innerHTML = "<input type='button' id='"+arr[i]+","+arr[i+1]+"' value='"+arr[i+2]+"' style='background-color:Crimson;color:white;height:20px;;width:104px;cursor:pointer' onclick='GetValue(this)'/>";
+                        j = j+1;
+                    }
+                }
+              
+            }
+			function DoAdd(a,b)
+			{
+				var result = a+b;
+				return result;
+			} 
+			function showLine2()
+			{   
+                var beginTime = $("#beginTime").val();
+                var endTime   = $("#endTime").val();
+               // var chartData = window.external.ShowTime(beginTime,endTime);
+                //alert(chartData);
+			    $("#chartContainer").show();
+                var chart = new AnyChart('resource/chartSwf/AnyChart.swf', 'resource/chartSwf/Preloader.swf');
+                chart.width = "100%";
+                chart.height = "80%";
+                chart.wMode = "opaque";
+                chart.setXMLFile("resource/chartXml/virtualData.xml");
+                //alert(chartData);
+              //  chart.setData(chartData);
+               // alert(1111);
+	            chart.write("chartContainer");
+			}
+        </script>
+        <link href="css/mycss.css" rel="stylesheet" type="text/css" />
+        <link type="text/css" rel="stylesheet" href="css/Style.css" />
+        <link type="text/css" rel="stylesheet" href="js/skin/WdatePicker.css" />
+        <script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+         <script language="javascript" type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+        <script language="javascript" type="text/javascript" src="js/WdatePicker.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/calendar.css" />
+        <script language="javascript" type="text/javascript" src="js/FusionCharts.js"></script>
+        <style type="text/css">
+		    html,body, #chartContainer  {
+			    width: 100%;
+			    height: 98%;
+			    padding: 0;
+			    margin: 0;
+		    }
+            .scTable {
+            border:1px #bebfbf solid;
+            }
+	        .scTable th {
+		        background: #cfe3dc;
+		        padding:6px;
+		        border:1px #bfcfda solid;
+		        font-weight: normal;
+	        }
+	        .scTable td {
+				        border:1px #bfcfda solid;
+		        text-align: center;
+	        }
+	        .scTable td a {
+		        text-decoration: underline;
+		        cursor: pointer;
+	        }
+	         #tabContainer
+                {
+                    margin: 5px;
+                }
+                #tabContainer li
+                {
+                    float: left;
+                    width: 80px;
+                    margin: 0 0px;
+                   
+                    text-align: center;
+                }
+                 body{
+           overflow:auto;
+           
+            SCROLLBAR-FACE-COLOR: #cecece; 
+            SCROLLBAR-HIGHLIGHT-COLOR: white; 
+            SCROLLBAR-SHADOW-COLOR: white; 
+            SCROLLBAR-3DLIGHT-COLOR: white; 
+            SCROLLBAR-ARROW-COLOR: white; 
+            SCROLLBAR-TRACK-COLOR: white; 
+            SCROLLBAR-DARKSHADOW-COLOR: white; 
+            }
+	    </style>
+	<script type="text/javascript"  src="resource/chartjs/AnyChart.js">function IMG1_onclick() {
+
+}
+
+</script>
+ </head>
+ <body style="overflow:auto;">
+        <table   border="0" cellpadding="0" cellspacing="0" width="100%" >
+            <tr style="padding-top:10px">
+                <td style="width:80%;">
+                    <label style=" margin-left:50px;font-size:14;font-family:微软雅黑">异常工况</label>
+                     <table  border="1" cellpadding="0" cellspacing="0" width="80%" style="margin-left:50px;margin-top:7px">
+                        <tr>
+                            <td>
+                                <table   border="0" cellpadding="0" cellspacing="0" width="100%" id="tableid" >
+
+                                </table>
+                            </td>
+
+                        </tr>
+                    </table>
+                </td>
+                <td  style="width:20%;">
+                
+                </td>
+            </tr>
+        </table>
+        <div id="chart" style="width:auto;height:auto"></div>
+ </body>
+</html>

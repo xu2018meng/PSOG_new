@@ -1,0 +1,26 @@
+﻿{"rows":[{
+	"id":1,
+	"reason":"LCV2157调节阀内漏",
+	"action":"用手阀控制"
+},{
+	"id":3,
+	"reason":"仪表指示故障",
+	"action":"联系检修仪表"
+},{
+	"id":4,
+	"reason":"GA-170出口NAP进料量FIQ2156降低",
+	"state":"closed",
+	"children":[{
+		"id":5,
+		"reason":"NAP裂解炉停炉",
+		"action":"减小LCV2157阀位开度"
+	},{
+		"id":6,
+		"reason":"NAP裂解炉降负荷",
+		"action":"减少LCV2157阀位开度"
+	},{
+	"id":7,
+	"reason":"NAP裂解炉炉管堵塞",
+	"action":"减少LCV2157阀位开度"
+        }]
+}]}

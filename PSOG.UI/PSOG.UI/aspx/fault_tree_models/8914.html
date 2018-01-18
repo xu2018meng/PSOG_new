@@ -1,0 +1,46 @@
+﻿{"rows":[{
+	"id":1,
+	"reason":"丙烯第二制冷压缩机一段吸入压力高（PIC2501>55kp）",
+	"state":"closed",
+	"children":[{
+		"id":2,
+		"reason":"GB-551透平转速过高（SI5515>5700RPM）",
+		"action":"降低透平转速"
+	}]
+},{
+	"id":3,
+	"reason":"GB-551出口丙烯冷剂收集罐FA-574液面LIC2509过高（LIC2509>75%）",
+	"state":"closed",
+	"children":[{
+		"id":4,
+		"reason":"调节阀PCV2506开度过小",
+		"action":"增加开度"
+	}]
+},{
+	"id":5,
+	"reason":"GB-551压缩机负荷过大",
+	"state":"closed",
+	"children":[{
+		"id":6,
+		"reason":"各丙烯冷剂用户对冷量需求过大",
+		"action":"  "
+	}]
+},{
+	"id":7,
+	"reason":"GB-551出口冷却器EA-511A、B、C、D、E不能提供足够冷量",
+	"state":"closed",
+	"children":[{
+		"id":8,
+		"reason":"出口冷却器EA-501A、B、C、D、E冷却回水手阀开度不够",
+		"action":"开大手阀"
+	},{
+		"id":9,
+		"reason":"循环冷却水温度升高",
+		"action":"开大手阀"
+	},{
+		"id":10,
+		"reason":"出口冷却器EA-511A、B、C、D、E冷却水压力低",
+		"action":"开大手阀"
+	}]
+}
+]}

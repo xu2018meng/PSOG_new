@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<anychart>
+  <settings>
+    <animation enabled="True" />
+  </settings>
+  <charts>
+    <chart plot_type="CategorizedVertical">
+      <chart_settings>
+        <title>
+          <text></text>
+          <background enabled="false" />
+        </title>
+        <chart_background enabled="false" />
+        <axes>
+          <x_axis>
+            <title enabled="true">
+              <text>时间</text>
+            </title>
+          </x_axis>
+          <y_axis>
+            <title enabled="true">
+              <text>量测值</text>
+            </title>
+          </y_axis>
+        </axes>
+        <legend enabled="true" position="Top" align="Center">
+          <format>{%Icon} {%Name}</format>
+          <template></template>
+          <title enabled="false" />
+          <columns_separator enabled="false" />
+          <background>
+            <inside_margin left="10" right="10" />
+          </background>
+        </legend>
+      </chart_settings>
+      <data_plot_settings default_series_type="Spline">
+        <line_series>
+          <marker_settings>
+            <marker size="8" />
+            <states>
+              <hover>
+                <marker size="12" />
+              </hover>
+            </states>
+          </marker_settings>
+          <tooltip_settings enabled="True" />
+        </line_series>
+      </data_plot_settings>
+      <data>
+        <series name="实测值">
+          <point name="2001" y="2" />
+          <point name="2002" y="5" />
+          <point name="2003" y="6" />
+          <point name="2004" y="7" />
+          <point name="2005" y="12" />
+          <point name="2006" y="10" />
+          <point name="2007" y="9" />
+          <point name="2008" y="12" />
+          <point name="2009" y="14" />
+          <point name="2010" y="4" />
+          <point name="2011" y="1" />
+        </series>
+        <series name="预测值">
+          <point name="2001" y="23" />
+          <point name="2002" y="1" />
+          <point name="2003" y="3" />
+          <point name="2004" y="5" />
+          <point name="2005" y="6" />
+          <point name="2006" y="6" />
+          <point name="2007" y="7" />
+          <point name="2008" y="12" />
+          <point name="2009" y="23" />
+          <point name="2010" y="11" />
+          <point name="2011" y="12" />
+        </series>
+      </data>
+    </chart>
+  </charts>
+</anychart>

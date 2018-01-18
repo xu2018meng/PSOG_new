@@ -1,0 +1,32 @@
+﻿{"rows":[{
+	"id":1,
+	"reason":"裂解负荷高",
+	"action":" "
+},{
+	"id":3,
+	"reason":"裂解原料变轻",
+	"action":"  "
+},{
+	"id":4,
+	"reason":"汽油回流量FIC1151偏小",
+	"state":"closed",
+	"children":[{
+		"id":5,
+		"reason":"PCV1151开度过小",
+		"action":" "
+	},{
+		"id":6,
+		"reason":"LIC1122液位过低汽油量不足",
+		"action":" "
+	}]
+},{
+	"id":7,
+	"reason":"侧线采出FIC1124不足",
+	"state":"closed",
+	"children":[{
+		"id":8,
+		"reason":"FCV1124开度过小",
+		"action":" "
+	}]
+}
+]}

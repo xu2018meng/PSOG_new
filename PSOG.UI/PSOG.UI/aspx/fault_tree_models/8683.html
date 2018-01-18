@@ -1,0 +1,75 @@
+﻿{"rows":[{
+	"id":1,
+	"reason":"液面LI2515失灵，指示读数不属实",
+	"state":"closed",
+	"children":[{
+		"id":2,
+		"reason":"液面计堵塞",
+		"action":"清理"
+	},{
+		"id":3,
+		"reason":"液位计仪表故障，假指示",
+		"action":"联系检修仪表"
+	}]
+},{
+	"id":4,
+	"reason":"喷淋阀TCV2501开度过大（阀位过高）",
+	"action":"降低开度"
+},{
+	"id":5,
+	"reason":"小喷淋打开",
+	"action":"检查、关闭"
+},{
+	"id":6,
+	"reason":"EA-467液面LIC2502过高（LIC2502>40%）",
+	"state":"closed",
+	"children":[{
+		"id":7,
+		"reason":"EA-467用户冷量消耗降低",
+		"action":" "
+	},{
+		"id":8,
+		"reason":"PV2412开度过大或失灵（PV2412开度>56%）",
+		"action":"联系检修仪表"
+	}]
+},{
+	"id":9,
+	"reason":"FA-525液面LIC2501过高（LIC2501>60%）",
+	"state":"closed",
+	"children":[{
+		"id":10,
+		"reason":"EA-354用户冷量消耗降低",
+		"action":"  "
+	},{
+		"id":11,
+		"reason":"LCV2501开度过大或失灵（开度>30%）",
+		"action":"联系检修仪表"
+	}]
+},{
+	"id":12,
+	"reason":"FA-570鼓泡器加热量不足",
+	"state":"closed",
+	"children":[{
+		"id":13,
+		"reason":"调节阀HCV2501开度过小（HCV2501阀位低）",
+		"action":"增加开度"
+	},{
+		"id":14,
+		"reason":"调节阀HCV2501故障，实际开度小于设定值",
+		"action":"联系检修仪表"
+	}]
+},{
+	"id":15,
+	"reason":"FA-570罐液相无法及时排除",
+	"state":"closed",
+	"children":[{
+		"id":16,
+		"reason":"排液罐FA-530满液面",
+		"action":"排液"
+	},{
+		"id":17,
+		"reason":"FA-570罐底排液手阀开度小或关闭",
+		"action":"增加开度"
+	}]
+}
+]}

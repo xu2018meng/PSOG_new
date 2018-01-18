@@ -1,0 +1,77 @@
+﻿{"rows":[{
+	"id":1,
+	"reason":"中沸器EA-410加热过大气相线温度TI-470过高（高于50℃）",
+	"state":"closed",
+	"children":[{
+		"id":2,
+		"reason":"LIC409阀位开度过大（大于90%）",
+		"action":"  "
+	},{
+		"id":3,
+		"reason":"FIC-2204开度过小（小于93%）",
+		"action":"  "
+	}]
+},{
+	"id":4,
+	"reason":"再沸器EA-409加热过大气相线温度TI-470C过高（高于75℃）",
+	"state":"closed",
+	"children":[{
+		"id":5,
+		"reason":"FIC-504阀位开度过大（大于45%）",
+		"action":"  "
+	}]
+},{
+	"id":6,
+	"reason":"回流温度TI-420高（高于-20℃）",
+	"state":"closed",
+	"children":[{
+		"id":7,
+		"reason":"塔顶丙烯冷剂温度高",
+		"action":"  "
+	},{
+		"id":8,
+		"reason":"LIC-502开度过小（小于10%）",
+		"action":"  "
+	}]
+},{
+	"id":9,
+	"reason":"进料中乙烯含量高，侧线采出乙烯产品量FR415过少（小于50T/h）",
+	"state":"closed",
+	"children":[{
+		"id":10,
+		"reason":"裂解深度控制合适",
+		"action":"  "
+	},{
+		"id":11,
+		"reason":"FCV415阀位开度过小（小于40%）",
+		"action":"  "
+	}]
+},{
+	"id":12,
+	"reason":"塔顶丙烯冷凝剂温度高",
+	"state":"closed",
+	"children":[{
+		"id":13,
+		"reason":"GB-501二段吸入压力PIC-503高（高于0.45MPa）",
+		"action":"  "
+	}]
+},{
+	"id":14,
+	"reason":"回流量FIC-412小（小于145T/h）",
+	"state":"closed",
+	"children":[{
+		"id":15,
+		"reason":"FCV-412阀位开度过小（小于10%）",
+		"action":"  "
+	}]
+},{
+	"id":16,
+	"reason":"尾气返回量FIC-417小（小于85KNM3/h）",
+	"state":"closed",
+	"children":[{
+		"id":17,
+		"reason":"FCV-417阀位开度过小（小于30%）",
+		"action":"  "
+	}]
+}
+]}

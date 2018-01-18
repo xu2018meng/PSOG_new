@@ -1,0 +1,1 @@
+http://lbs.amap.com/api/javascript-api/example/layers/heatmap/

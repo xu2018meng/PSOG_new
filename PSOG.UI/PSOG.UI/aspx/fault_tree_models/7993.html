@@ -1,0 +1,40 @@
+﻿{"rows":[{
+	"id":1,
+	"reason":"稀蒸汽带液TI116过低（低于170℃）",
+	"state":"closed",
+	"children":[{
+		"id":2,
+		"reason":"PIC113开度小（小于20%）",
+		"action":"提高该阀位开度"
+                },{
+		"id":3,
+		"reason":"稀释蒸汽汽包液位LIC116高（高于90%）",
+		"action":"降低汽包液位"
+	}]
+},{
+	"id":4,
+	"reason":"仪表风压波动",
+	"action":" "
+},{
+	"id":5,
+	"reason":"保护蒸汽未关",
+	"action":" "
+},{
+	"id":6,
+	"reason":"进料压力波动",
+	"state":"closed",
+	"children":[{
+		"id":8,
+		"reason":"HVGO进料压力PI112波动（波动范围为上下0.1MPA）",
+		"action":"调整GA101出口压力"
+	},{
+		"id":9,
+		"reason":"NAP进料压力PI2112波动（波动范围为上下0.1MPA）",
+		"action":"调整GA171出口压力"
+	},{
+		"id":7,
+		"reason":"NAP进料压力PI2113波动（波动范围为上下0.1MPA）",
+		"action":"调整GA170出口压力"
+	}]
+}
+]}

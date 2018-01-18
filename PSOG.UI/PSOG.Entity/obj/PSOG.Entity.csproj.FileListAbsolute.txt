@@ -1,0 +1,85 @@
+D:\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.dll
+D:\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.pdb
+D:\PSOG.UI\PSOG.Entity\obj\Debug\ResolveAssemblyReference.cache
+D:\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.dll
+D:\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.pdb
+D:\PSOG.UI\PSOG.Entity\bin\Release\PSOG.Entity.dll
+D:\PSOG.UI\PSOG.Entity\bin\Release\PSOG.Entity.pdb
+D:\PSOG.UI\PSOG.Entity\obj\Release\ResolveAssemblyReference.cache
+D:\PSOG.UI\PSOG.Entity\obj\Release\PSOG.Entity.dll
+D:\PSOG.UI\PSOG.Entity\obj\Release\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Entity\bin\Release\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Entity\bin\Release\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Entity\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Entity\obj\Release\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Entity\obj\Release\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Entity\bin\Release\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Entity\bin\Release\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Entity\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Entity\obj\Release\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Entity\obj\Release\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Entity\bin\Release\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Entity\bin\Release\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Entity\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Entity\obj\Release\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Entity\obj\Release\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Entity\bin\Release\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Entity\bin\Release\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Entity\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Entity\obj\Release\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Entity\obj\Release\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Entity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.pdb
+E:\PSOG\PSOG.UI\PSOG.Entity\bin\Release\PSOG.Entity.dll
+E:\PSOG\PSOG.UI\PSOG.Entity\bin\Release\PSOG.Entity.pdb
+E:\PSOG\PSOG.UI\PSOG.Entity\obj\Release\ResolveAssemblyReference.cache
+E:\PSOG\PSOG.UI\PSOG.Entity\obj\Release\PSOG.Entity.dll
+E:\PSOG\PSOG.UI\PSOG.Entity\obj\Release\PSOG.Entity.pdb
+E:\PSOG\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.dll
+E:\PSOG\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.pdb
+E:\PSOG\PSOG.UI\PSOG.Entity\obj\Debug\ResolveAssemblyReference.cache
+E:\PSOG\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.dll
+E:\PSOG\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.pdb
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.pdb
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Entity\obj\Debug\ResolveAssemblyReference.cache
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Entity\obj\Debug\ResolveAssemblyReference.cache
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Entity\obj\Debug\ResolveAssemblyReference.cache
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Entity\obj\Debug\ResolveAssemblyReference.cache
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.pdb
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.pdb
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Entity\obj\Debug\ResolveAssemblyReference.cache
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.pdb
+E:\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.dll
+E:\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.pdb
+E:\PSOG.UI\PSOG.Entity\obj\Debug\ResolveAssemblyReference.cache
+E:\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.dll
+E:\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.pdb
+F:\ZHPSOG\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.dll
+F:\ZHPSOG\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.pdb
+F:\ZHPSOG\PSOG.UI\PSOG.Entity\obj\Debug\ResolveAssemblyReference.cache
+F:\ZHPSOG\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.dll
+F:\ZHPSOG\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.pdb
+F:\运行指导项目\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.dll
+F:\运行指导项目\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.pdb
+F:\运行指导项目\PSOG.UI\PSOG.Entity\obj\Debug\ResolveAssemblyReference.cache
+F:\运行指导项目\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.dll
+F:\运行指导项目\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.pdb

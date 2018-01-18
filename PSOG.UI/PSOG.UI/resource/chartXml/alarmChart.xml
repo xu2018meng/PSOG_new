@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<anychart>
+	<settings>
+		<animation enabled='True' />
+	</settings>
+	<charts>
+		<chart plot_type='CategorizedVertical'>
+            <data>
+                <series name="">
+                    <point name="无记录" y="0" />
+                </series>
+            </data>
+			<chart_settings>
+				<title>
+					<text>
+            
+					</text>
+          <font render_as_html="True" />
+					<background enabled='false' />
+				</title>
+				<chart_background enabled='True'>
+					<border enabled='True' color='#C3C1D1' thickness='1'>          </border>
+					<corners type='Square'/>
+				</chart_background>
+
+				<axes>
+					<x_axis>
+                        <labels enabled="true" width="80"  display_mode="rotated" align="Inside">
+                            <format><![CDATA[{%Value}{maxChar:15,maxCharFinalChars:...}]]></format>
+                        </labels>
+                        <title enabled='true'>
+							<text>时间</text>
+						</title>
+					</x_axis>
+					<y_axis>
+            <scale maximum="110" minimum="50" />
+						<axis_markers>
+							<lines>
+								
+							</lines>
+						</axis_markers>
+						<title enabled='true'>
+							<text>工艺运行状态指数</text>
+						</title>
+					</y_axis>
+				</axes>
+				<legend enabled='true' position='Top' align='Center'>
+					<format>{%Icon} {%Name}</format>
+					<template>
+					</template>
+					<title enabled='false' />
+					<columns_separator enabled='false' />
+					<background>
+						<inside_margin left='10' right='10' />
+					</background>
+				</legend>
+			</chart_settings>
+			<data_plot_settings default_series_type='Spline'>
+				<line_series>
+					<marker_settings>
+						<marker size='0' />
+						<states>
+							<hover>
+								<marker size='12' />
+							</hover>
+						</states>
+					</marker_settings>
+					<tooltip_settings enabled='True'>
+                        <font family="Verdana" color="Black" size="12" bold="false" italic="False" underline="False" render_as_html="False" />
+                        <format>
+                            <![CDATA[{%ShowTitle}]]>
+                        </format>
+					</tooltip_settings>
+				</line_series>
+			</data_plot_settings>
+			
+		</chart>
+	</charts>
+</anychart>

@@ -1,0 +1,95 @@
+﻿<anychart>
+  <dashboard>
+    <view type="Dashboard">
+      <title padding="2">
+        <text>项目风险分级展示</text>
+      </title>
+      <background>
+        <inside_margin all="3" top="10"/>
+      </background>
+
+      <vbox width="100%" height="100%">
+        <margin all="0"/>
+        <hbox width="100%" height="50%">
+          <margin all="0"/>
+          <view type="Chart" source="A" width="50%" height="100%" text="财产"/>
+          <view type="Chart" source="E" width="50%" height="100%" text="环境"/>
+        </hbox>
+        <hbox width="100%" height="50%">
+          <margin all="0"/>
+          <view type="Chart" source="P" width="50%" height="100%" text="人员"/>
+          <view type="Chart" source="R" width="50%" height="100%" text="声誉"/>
+        </hbox>
+      </vbox>
+    </view>
+  </dashboard>
+  <templates>
+    <template name="baseTemplate">
+      <chart>
+        <chart_settings>
+          <chart_background>
+            <border type="Solid" color="#CCCCCC" thickness="1"/>
+            <corners type="Square"/>
+            <effects enabled="false"/>
+            <inside_margin all="10" top="5"/>
+          </chart_background>
+          <title enabled="true"/>
+        </chart_settings>
+        <data_plot_settings>
+          <pie_series>
+            <label_settings enabled="True" mode="Outside" multi_line_align="Center">
+              <position halign="Center" valign="Center"  padding="8"/>
+              <format>{%Name}, {%YPercentOfSeries}{numDecimals:1}%</format>
+              <font bold="False"/>
+            </label_settings>
+            <connector enabled="True" opacity="0.3"/>
+            <tooltip_settings enabled="True">
+              <format>{%Name} - {%YPercentOfSeries}{numDecimals:1}%</format>
+            </tooltip_settings>
+          </pie_series>
+        </data_plot_settings>
+      </chart>
+    </template>
+  </templates>
+  <charts name="chart">
+    <chart name="A" template="baseTemplate" plot_type="Pie">
+      <chart_settings>
+        <title>
+          <text>A(财产)</text>
+        </title>
+      </chart_settings>
+      <data>
+      </data>
+    </chart>
+    <chart name="E" template="baseTemplate" plot_type="Pie">
+      <chart_settings>
+        <title>
+          <text>E(环境)</text>
+        </title>
+      </chart_settings>
+      <data>
+
+      </data>
+    </chart>
+    <chart name="P" template="baseTemplate" plot_type="Pie">
+      <chart_settings>
+        <title>
+          <text>P(人员)</text>
+        </title>
+      </chart_settings>
+      <data>
+
+      </data>
+    </chart>
+    <chart name="R" template="baseTemplate" plot_type="Pie">
+      <chart_settings>
+        <title>
+          <text>R(声誉)</text>
+        </title>
+      </chart_settings>
+      <data>
+
+      </data>
+    </chart>
+  </charts>
+</anychart>

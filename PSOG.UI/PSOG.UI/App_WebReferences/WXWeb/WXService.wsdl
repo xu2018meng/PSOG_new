@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://PSOG.WEIXIN.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://PSOG.WEIXIN.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://PSOG.WEIXIN.com/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="weiXinUserData" type="tns:WeiXinUserData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WeiXinUserData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="userid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="department" type="tns:ArrayOfInt" />
+          <s:element minOccurs="0" maxOccurs="1" name="position" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="mobile" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="gender" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="extattr" type="tns:WeiXinExtattr" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfInt">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="int" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WeiXinExtattr">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="attrs" type="tns:ArrayOfWeiXinAttrsItem" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfWeiXinAttrsItem">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="WeiXinAttrsItem" nillable="true" type="tns:WeiXinAttrsItem" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WeiXinAttrsItem">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="value" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CreateUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="weiXinUserData" type="tns:WeiXinUserData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdateUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DeleteUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendInfoToUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="content" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="applicationId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendInfoToUserResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="SendAlarmNews">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="newsArticle" type="tns:NewsArticle" />
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="applicationId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="NewsArticle">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="picUrl" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="url" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="description" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="title" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SendAlarmNewsResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="SmsSendFunc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strMsg" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MobileList" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SmsSendFuncResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SmsSendFuncResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOAuth2Url">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="url" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="urlType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOAuth2UrlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOAuth2UrlResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOAuth2UserId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="code" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOAuth2UserIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOAuth2UserIdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateUserSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateUser" />
+  </wsdl:message>
+  <wsdl:message name="CreateUserSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateUserSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateUser" />
+  </wsdl:message>
+  <wsdl:message name="UpdateUserSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteUserSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteUser" />
+  </wsdl:message>
+  <wsdl:message name="DeleteUserSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendInfoToUserSoapIn">
+    <wsdl:part name="parameters" element="tns:SendInfoToUser" />
+  </wsdl:message>
+  <wsdl:message name="SendInfoToUserSoapOut">
+    <wsdl:part name="parameters" element="tns:SendInfoToUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendAlarmNewsSoapIn">
+    <wsdl:part name="parameters" element="tns:SendAlarmNews" />
+  </wsdl:message>
+  <wsdl:message name="SendAlarmNewsSoapOut">
+    <wsdl:part name="parameters" element="tns:SendAlarmNewsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SmsSendFuncSoapIn">
+    <wsdl:part name="parameters" element="tns:SmsSendFunc" />
+  </wsdl:message>
+  <wsdl:message name="SmsSendFuncSoapOut">
+    <wsdl:part name="parameters" element="tns:SmsSendFuncResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOAuth2UrlSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOAuth2Url" />
+  </wsdl:message>
+  <wsdl:message name="GetOAuth2UrlSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOAuth2UrlResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOAuth2UserIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOAuth2UserId" />
+  </wsdl:message>
+  <wsdl:message name="GetOAuth2UserIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOAuth2UserIdResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WXServiceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateUser">
+      <wsdl:input message="tns:CreateUserSoapIn" />
+      <wsdl:output message="tns:CreateUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <wsdl:input message="tns:UpdateUserSoapIn" />
+      <wsdl:output message="tns:UpdateUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <wsdl:input message="tns:DeleteUserSoapIn" />
+      <wsdl:output message="tns:DeleteUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendInfoToUser">
+      <wsdl:input message="tns:SendInfoToUserSoapIn" />
+      <wsdl:output message="tns:SendInfoToUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendAlarmNews">
+      <wsdl:input message="tns:SendAlarmNewsSoapIn" />
+      <wsdl:output message="tns:SendAlarmNewsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SmsSendFunc">
+      <wsdl:input message="tns:SmsSendFuncSoapIn" />
+      <wsdl:output message="tns:SmsSendFuncSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOAuth2Url">
+      <wsdl:input message="tns:GetOAuth2UrlSoapIn" />
+      <wsdl:output message="tns:GetOAuth2UrlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOAuth2UserId">
+      <wsdl:input message="tns:GetOAuth2UserIdSoapIn" />
+      <wsdl:output message="tns:GetOAuth2UserIdSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WXServiceSoap" type="tns:WXServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://PSOG.WEIXIN.com/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateUser">
+      <soap:operation soapAction="http://PSOG.WEIXIN.com/CreateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <soap:operation soapAction="http://PSOG.WEIXIN.com/UpdateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <soap:operation soapAction="http://PSOG.WEIXIN.com/DeleteUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendInfoToUser">
+      <soap:operation soapAction="http://PSOG.WEIXIN.com/SendInfoToUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendAlarmNews">
+      <soap:operation soapAction="http://PSOG.WEIXIN.com/SendAlarmNews" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SmsSendFunc">
+      <soap:operation soapAction="http://PSOG.WEIXIN.com/SmsSendFunc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOAuth2Url">
+      <soap:operation soapAction="http://PSOG.WEIXIN.com/GetOAuth2Url" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOAuth2UserId">
+      <soap:operation soapAction="http://PSOG.WEIXIN.com/GetOAuth2UserId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WXServiceSoap12" type="tns:WXServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://PSOG.WEIXIN.com/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateUser">
+      <soap12:operation soapAction="http://PSOG.WEIXIN.com/CreateUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <soap12:operation soapAction="http://PSOG.WEIXIN.com/UpdateUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <soap12:operation soapAction="http://PSOG.WEIXIN.com/DeleteUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendInfoToUser">
+      <soap12:operation soapAction="http://PSOG.WEIXIN.com/SendInfoToUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendAlarmNews">
+      <soap12:operation soapAction="http://PSOG.WEIXIN.com/SendAlarmNews" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SmsSendFunc">
+      <soap12:operation soapAction="http://PSOG.WEIXIN.com/SmsSendFunc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOAuth2Url">
+      <soap12:operation soapAction="http://PSOG.WEIXIN.com/GetOAuth2Url" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOAuth2UserId">
+      <soap12:operation soapAction="http://PSOG.WEIXIN.com/GetOAuth2UserId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WXService">
+    <wsdl:port name="WXServiceSoap" binding="tns:WXServiceSoap">
+      <soap:address location="http://10.206.1.160/PSOG_WX_NEW/WXService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WXServiceSoap12" binding="tns:WXServiceSoap12">
+      <soap12:address location="http://10.206.1.160/PSOG_WX_NEW/WXService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

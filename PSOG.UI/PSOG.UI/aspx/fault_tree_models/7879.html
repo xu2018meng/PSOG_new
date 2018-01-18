@@ -1,0 +1,46 @@
+﻿{"rows":[{
+	"id":1,
+	"reason":"高压蒸汽温度过低低于480摄氏度",
+	"state":"closed",
+	"children":[{
+		"id":2,
+		"reason":"超高压蒸汽大量带水",
+		"state":"closed",
+	        "children":[{
+		        "id":5,
+		        "reason":"汽包液面LICA-01过高，SS大量带水",
+		        "state":"closed",
+                        "children":[{
+		               "id":7,
+		               "reason":"FICA-26开度过大",
+		               "action":" "
+                                }]
+	                 }]
+               },{
+		"id":6,
+		"reason":"超高压蒸汽过热的出口热电偶不准",
+		"action":" "
+               },{
+		"id":8,
+		"reason":"超高压蒸汽减温器调节阀TICA-28开度低",
+		"action":" "
+               },{
+		"id":9,
+		"reason":"超高压蒸汽过热的减温器调节阀内漏",
+		"action":" "
+               }]
+},{
+	"id":3,
+	"reason":"高压蒸汽温度过高高于530℃",
+	"state":"closed",
+	"children":[{
+		"id":4,
+		"reason":"超高压蒸汽减温器调节阀TICA-28开度低",
+		"action":"  "
+	},{
+		"id":10,
+		"reason":"超高压蒸汽过热的出口热电偶不准",
+		"action":"停炉烧焦"
+	}]
+}
+]}

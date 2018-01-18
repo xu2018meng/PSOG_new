@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PSOG.Bizc.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PSOG_Bizc_IEMWebReference_IEMWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.206.1.81/iem/iemwebservice.asmx</Value>
+    </Setting>
+    <Setting Name="PSOG_Bizc_WXWeb_WXService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.206.1.160/PSOG_WX_NEW/WXService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

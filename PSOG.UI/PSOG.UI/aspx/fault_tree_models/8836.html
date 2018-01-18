@@ -1,0 +1,46 @@
+﻿{"rows":[{
+	"id":1,
+	"reason":"丙烯第一制冷压缩机一段吸入压力高（PRC501>45kp）",
+	"state":"closed",
+	"children":[{
+		"id":2,
+		"reason":"GB-501透平转速过高（SI501>4300RPM）",
+		"action":"降低透平转速"
+	}]
+},{
+	"id":3,
+	"reason":"GB-501出口丙烯冷剂收集罐FA-505液面LIC527过高（LIC527>66%）",
+	"state":"closed",
+	"children":[{
+		"id":4,
+		"reason":"调节阀LCV527开度过小",
+		"action":"增加开度"
+	}]
+},{
+	"id":5,
+	"reason":"GB-501压缩机负荷过大",
+	"state":"closed",
+	"children":[{
+		"id":6,
+		"reason":"各丙烯冷剂用户对冷量需求过大",
+		"action":"  "
+	}]
+},{
+	"id":7,
+	"reason":"GB-501出口冷却器EA-501，EA-502A、B、C、D、E不能提供足够冷量",
+	"state":"closed",
+	"children":[{
+		"id":8,
+		"reason":"出口冷却器EA-501、EA-502A、B、C、D、E冷却回水手阀开度不够",
+		"action":"开大手阀"
+	},{
+		"id":9,
+		"reason":"循环冷却水温度升高",
+		"action":"开大手阀"
+	},{
+		"id":10,
+		"reason":"出口冷却器EA-501，EA-502A、B、C、D、E冷却水压力低",
+		"action":"开大手阀"
+	}]
+}
+]}

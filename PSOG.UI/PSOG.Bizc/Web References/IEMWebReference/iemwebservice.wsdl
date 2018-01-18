@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.crtsoft.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.crtsoft.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.crtsoft.com/">
+      <s:element name="CreateTree">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateTreeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateTreeResult" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ErrorCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateModelTree">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TreeRoot" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateModelTreeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateModelTreeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StaticsWarningModelList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Route" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StartTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EndTime" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="EmptyIgnore" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StaticsWarningModelListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StaticsWarningModelListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TStaticsModelInfoList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Route" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StartTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EndTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TStaticsModelInfoListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TStaticsModelInfoListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StaticsModelInfoList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Route" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StartTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EndTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StaticsModelInfoListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StaticsModelInfoListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetModelDataSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Route" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StartTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EndTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetModelDataSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetModelDataSetResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetModelStatisticsByDay">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Route" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StartTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EndTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetModelStatisticsByDayResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetModelStatisticsByDayResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TStaticsDeviceInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Route" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StartTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EndTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TStaticsDeviceInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TStaticsDeviceInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StaticsDeviceInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Route" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StartTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EndTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StaticsDeviceInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StaticsDeviceInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTagDataSet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StartTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EndTime" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTagDataSetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTagDataSetResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetModelDataByTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Route" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Time" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Flag" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetModelDataByTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetModelDataByTimeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRountByDes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Des" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRountByDesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetRountByDesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPageUrl1ByDes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ModelParam" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPageUrl1ByDesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPageUrl1ByDesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCurrentModelAlarmInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Route" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StartTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EndTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Flag" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCurrentModelAlarmInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCurrentModelAlarmInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CreateTreeSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateTree" />
+  </wsdl:message>
+  <wsdl:message name="CreateTreeSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateTreeResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateModelTreeSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateModelTree" />
+  </wsdl:message>
+  <wsdl:message name="CreateModelTreeSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateModelTreeResponse" />
+  </wsdl:message>
+  <wsdl:message name="StaticsWarningModelListSoapIn">
+    <wsdl:part name="parameters" element="tns:StaticsWarningModelList" />
+  </wsdl:message>
+  <wsdl:message name="StaticsWarningModelListSoapOut">
+    <wsdl:part name="parameters" element="tns:StaticsWarningModelListResponse" />
+  </wsdl:message>
+  <wsdl:message name="TStaticsModelInfoListSoapIn">
+    <wsdl:part name="parameters" element="tns:TStaticsModelInfoList" />
+  </wsdl:message>
+  <wsdl:message name="TStaticsModelInfoListSoapOut">
+    <wsdl:part name="parameters" element="tns:TStaticsModelInfoListResponse" />
+  </wsdl:message>
+  <wsdl:message name="StaticsModelInfoListSoapIn">
+    <wsdl:part name="parameters" element="tns:StaticsModelInfoList" />
+  </wsdl:message>
+  <wsdl:message name="StaticsModelInfoListSoapOut">
+    <wsdl:part name="parameters" element="tns:StaticsModelInfoListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetModelDataSetSoapIn">
+    <wsdl:part name="parameters" element="tns:GetModelDataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetModelDataSetSoapOut">
+    <wsdl:part name="parameters" element="tns:GetModelDataSetResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetModelStatisticsByDaySoapIn">
+    <wsdl:part name="parameters" element="tns:GetModelStatisticsByDay" />
+  </wsdl:message>
+  <wsdl:message name="GetModelStatisticsByDaySoapOut">
+    <wsdl:part name="parameters" element="tns:GetModelStatisticsByDayResponse" />
+  </wsdl:message>
+  <wsdl:message name="TStaticsDeviceInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:TStaticsDeviceInfo" />
+  </wsdl:message>
+  <wsdl:message name="TStaticsDeviceInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:TStaticsDeviceInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="StaticsDeviceInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:StaticsDeviceInfo" />
+  </wsdl:message>
+  <wsdl:message name="StaticsDeviceInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:StaticsDeviceInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTagDataSetSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTagDataSet" />
+  </wsdl:message>
+  <wsdl:message name="GetTagDataSetSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTagDataSetResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetModelDataByTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetModelDataByTime" />
+  </wsdl:message>
+  <wsdl:message name="GetModelDataByTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetModelDataByTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRountByDesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetRountByDes" />
+  </wsdl:message>
+  <wsdl:message name="GetRountByDesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetRountByDesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPageUrl1ByDesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPageUrl1ByDes" />
+  </wsdl:message>
+  <wsdl:message name="GetPageUrl1ByDesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPageUrl1ByDesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentModelAlarmInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCurrentModelAlarmInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentModelAlarmInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCurrentModelAlarmInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateModelTreeHttpGetIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="TreeRoot" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateModelTreeHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="StaticsWarningModelListHttpGetIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+    <wsdl:part name="EmptyIgnore" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="StaticsWarningModelListHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TStaticsModelInfoListHttpGetIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TStaticsModelInfoListHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="StaticsModelInfoListHttpGetIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="StaticsModelInfoListHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetModelDataSetHttpGetIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetModelDataSetHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetModelStatisticsByDayHttpGetIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetModelStatisticsByDayHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TStaticsDeviceInfoHttpGetIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TStaticsDeviceInfoHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="StaticsDeviceInfoHttpGetIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="StaticsDeviceInfoHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTagDataSetHttpGetIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Name" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTagDataSetHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetModelDataByTimeHttpGetIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="Time" type="s:string" />
+    <wsdl:part name="Flag" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetModelDataByTimeHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetRountByDesHttpGetIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Des" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetRountByDesHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPageUrl1ByDesHttpGetIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="ModelParam" type="s:string" />
+    <wsdl:part name="Type" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPageUrl1ByDesHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentModelAlarmInfoHttpGetIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+    <wsdl:part name="Flag" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentModelAlarmInfoHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateModelTreeHttpPostIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="TreeRoot" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateModelTreeHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="StaticsWarningModelListHttpPostIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+    <wsdl:part name="EmptyIgnore" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="StaticsWarningModelListHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TStaticsModelInfoListHttpPostIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TStaticsModelInfoListHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="StaticsModelInfoListHttpPostIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="StaticsModelInfoListHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetModelDataSetHttpPostIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetModelDataSetHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetModelStatisticsByDayHttpPostIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetModelStatisticsByDayHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TStaticsDeviceInfoHttpPostIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TStaticsDeviceInfoHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="StaticsDeviceInfoHttpPostIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="StaticsDeviceInfoHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTagDataSetHttpPostIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Name" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTagDataSetHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetModelDataByTimeHttpPostIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="Time" type="s:string" />
+    <wsdl:part name="Flag" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetModelDataByTimeHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetRountByDesHttpPostIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Des" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetRountByDesHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPageUrl1ByDesHttpPostIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="ModelParam" type="s:string" />
+    <wsdl:part name="Type" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPageUrl1ByDesHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentModelAlarmInfoHttpPostIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="UserType" type="s:string" />
+    <wsdl:part name="Route" type="s:string" />
+    <wsdl:part name="StartTime" type="s:string" />
+    <wsdl:part name="EndTime" type="s:string" />
+    <wsdl:part name="Flag" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCurrentModelAlarmInfoHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="IEMWebServiceSoap">
+    <wsdl:operation name="CreateTree">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">生成左侧树</wsdl:documentation>
+      <wsdl:input message="tns:CreateTreeSoapIn" />
+      <wsdl:output message="tns:CreateTreeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateModelTree">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">生成设备模型树</wsdl:documentation>
+      <wsdl:input message="tns:CreateModelTreeSoapIn" />
+      <wsdl:output message="tns:CreateModelTreeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StaticsWarningModelList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">统计节点下所有模型的异动信息（排序）：EmptyIgnore指示是否忽视异动为0的模型</wsdl:documentation>
+      <wsdl:input message="tns:StaticsWarningModelListSoapIn" />
+      <wsdl:output message="tns:StaticsWarningModelListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TStaticsModelInfoList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据模型名称统计模型信息(支持多个模型):包括测点统计</wsdl:documentation>
+      <wsdl:input message="tns:TStaticsModelInfoListSoapIn" />
+      <wsdl:output message="tns:TStaticsModelInfoListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StaticsModelInfoList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据模型名称统计模型信息(支持多个模型):不包括测点统计</wsdl:documentation>
+      <wsdl:input message="tns:StaticsModelInfoListSoapIn" />
+      <wsdl:output message="tns:StaticsModelInfoListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModelDataSet">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据模型名称查询模型测量值:趋势图曲线:Route使用全路径</wsdl:documentation>
+      <wsdl:input message="tns:GetModelDataSetSoapIn" />
+      <wsdl:output message="tns:GetModelDataSetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModelStatisticsByDay">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据模型名称按天统计异动:Route使用全路径</wsdl:documentation>
+      <wsdl:input message="tns:GetModelStatisticsByDaySoapIn" />
+      <wsdl:output message="tns:GetModelStatisticsByDaySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TStaticsDeviceInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据设备名称统计设备信息:Route使用全路径:包括测点</wsdl:documentation>
+      <wsdl:input message="tns:TStaticsDeviceInfoSoapIn" />
+      <wsdl:output message="tns:TStaticsDeviceInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StaticsDeviceInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据设备名称统计设备信息:Route使用全路径:不包括测点</wsdl:documentation>
+      <wsdl:input message="tns:StaticsDeviceInfoSoapIn" />
+      <wsdl:output message="tns:StaticsDeviceInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTagDataSet">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据测点名称查询测量值:测点趋势图曲线:不使用全路径</wsdl:documentation>
+      <wsdl:input message="tns:GetTagDataSetSoapIn" />
+      <wsdl:output message="tns:GetTagDataSetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModelDataByTime">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据模型名称查询模型测量值:Route使用全路径</wsdl:documentation>
+      <wsdl:input message="tns:GetModelDataByTimeSoapIn" />
+      <wsdl:output message="tns:GetModelDataByTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRountByDes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据描述转换成全路径(格式：Rount1;Rount2;...):Des描述</wsdl:documentation>
+      <wsdl:input message="tns:GetRountByDesSoapIn" />
+      <wsdl:output message="tns:GetRountByDesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPageUrl1ByDes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据设备描述返回页面链接:Type=Name,Type=Des</wsdl:documentation>
+      <wsdl:input message="tns:GetPageUrl1ByDesSoapIn" />
+      <wsdl:output message="tns:GetPageUrl1ByDesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentModelAlarmInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据设备名称返回预警信息列表</wsdl:documentation>
+      <wsdl:input message="tns:GetCurrentModelAlarmInfoSoapIn" />
+      <wsdl:output message="tns:GetCurrentModelAlarmInfoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IEMWebServiceHttpGet">
+    <wsdl:operation name="CreateModelTree">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">生成设备模型树</wsdl:documentation>
+      <wsdl:input message="tns:CreateModelTreeHttpGetIn" />
+      <wsdl:output message="tns:CreateModelTreeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StaticsWarningModelList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">统计节点下所有模型的异动信息（排序）：EmptyIgnore指示是否忽视异动为0的模型</wsdl:documentation>
+      <wsdl:input message="tns:StaticsWarningModelListHttpGetIn" />
+      <wsdl:output message="tns:StaticsWarningModelListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TStaticsModelInfoList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据模型名称统计模型信息(支持多个模型):包括测点统计</wsdl:documentation>
+      <wsdl:input message="tns:TStaticsModelInfoListHttpGetIn" />
+      <wsdl:output message="tns:TStaticsModelInfoListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StaticsModelInfoList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据模型名称统计模型信息(支持多个模型):不包括测点统计</wsdl:documentation>
+      <wsdl:input message="tns:StaticsModelInfoListHttpGetIn" />
+      <wsdl:output message="tns:StaticsModelInfoListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModelDataSet">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据模型名称查询模型测量值:趋势图曲线:Route使用全路径</wsdl:documentation>
+      <wsdl:input message="tns:GetModelDataSetHttpGetIn" />
+      <wsdl:output message="tns:GetModelDataSetHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModelStatisticsByDay">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据模型名称按天统计异动:Route使用全路径</wsdl:documentation>
+      <wsdl:input message="tns:GetModelStatisticsByDayHttpGetIn" />
+      <wsdl:output message="tns:GetModelStatisticsByDayHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TStaticsDeviceInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据设备名称统计设备信息:Route使用全路径:包括测点</wsdl:documentation>
+      <wsdl:input message="tns:TStaticsDeviceInfoHttpGetIn" />
+      <wsdl:output message="tns:TStaticsDeviceInfoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StaticsDeviceInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据设备名称统计设备信息:Route使用全路径:不包括测点</wsdl:documentation>
+      <wsdl:input message="tns:StaticsDeviceInfoHttpGetIn" />
+      <wsdl:output message="tns:StaticsDeviceInfoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTagDataSet">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据测点名称查询测量值:测点趋势图曲线:不使用全路径</wsdl:documentation>
+      <wsdl:input message="tns:GetTagDataSetHttpGetIn" />
+      <wsdl:output message="tns:GetTagDataSetHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModelDataByTime">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据模型名称查询模型测量值:Route使用全路径</wsdl:documentation>
+      <wsdl:input message="tns:GetModelDataByTimeHttpGetIn" />
+      <wsdl:output message="tns:GetModelDataByTimeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRountByDes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据描述转换成全路径(格式：Rount1;Rount2;...):Des描述</wsdl:documentation>
+      <wsdl:input message="tns:GetRountByDesHttpGetIn" />
+      <wsdl:output message="tns:GetRountByDesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPageUrl1ByDes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据设备描述返回页面链接:Type=Name,Type=Des</wsdl:documentation>
+      <wsdl:input message="tns:GetPageUrl1ByDesHttpGetIn" />
+      <wsdl:output message="tns:GetPageUrl1ByDesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentModelAlarmInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据设备名称返回预警信息列表</wsdl:documentation>
+      <wsdl:input message="tns:GetCurrentModelAlarmInfoHttpGetIn" />
+      <wsdl:output message="tns:GetCurrentModelAlarmInfoHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IEMWebServiceHttpPost">
+    <wsdl:operation name="CreateModelTree">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">生成设备模型树</wsdl:documentation>
+      <wsdl:input message="tns:CreateModelTreeHttpPostIn" />
+      <wsdl:output message="tns:CreateModelTreeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StaticsWarningModelList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">统计节点下所有模型的异动信息（排序）：EmptyIgnore指示是否忽视异动为0的模型</wsdl:documentation>
+      <wsdl:input message="tns:StaticsWarningModelListHttpPostIn" />
+      <wsdl:output message="tns:StaticsWarningModelListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TStaticsModelInfoList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据模型名称统计模型信息(支持多个模型):包括测点统计</wsdl:documentation>
+      <wsdl:input message="tns:TStaticsModelInfoListHttpPostIn" />
+      <wsdl:output message="tns:TStaticsModelInfoListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StaticsModelInfoList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据模型名称统计模型信息(支持多个模型):不包括测点统计</wsdl:documentation>
+      <wsdl:input message="tns:StaticsModelInfoListHttpPostIn" />
+      <wsdl:output message="tns:StaticsModelInfoListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModelDataSet">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据模型名称查询模型测量值:趋势图曲线:Route使用全路径</wsdl:documentation>
+      <wsdl:input message="tns:GetModelDataSetHttpPostIn" />
+      <wsdl:output message="tns:GetModelDataSetHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModelStatisticsByDay">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据模型名称按天统计异动:Route使用全路径</wsdl:documentation>
+      <wsdl:input message="tns:GetModelStatisticsByDayHttpPostIn" />
+      <wsdl:output message="tns:GetModelStatisticsByDayHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TStaticsDeviceInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据设备名称统计设备信息:Route使用全路径:包括测点</wsdl:documentation>
+      <wsdl:input message="tns:TStaticsDeviceInfoHttpPostIn" />
+      <wsdl:output message="tns:TStaticsDeviceInfoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StaticsDeviceInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据设备名称统计设备信息:Route使用全路径:不包括测点</wsdl:documentation>
+      <wsdl:input message="tns:StaticsDeviceInfoHttpPostIn" />
+      <wsdl:output message="tns:StaticsDeviceInfoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTagDataSet">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据测点名称查询测量值:测点趋势图曲线:不使用全路径</wsdl:documentation>
+      <wsdl:input message="tns:GetTagDataSetHttpPostIn" />
+      <wsdl:output message="tns:GetTagDataSetHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModelDataByTime">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据模型名称查询模型测量值:Route使用全路径</wsdl:documentation>
+      <wsdl:input message="tns:GetModelDataByTimeHttpPostIn" />
+      <wsdl:output message="tns:GetModelDataByTimeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRountByDes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据描述转换成全路径(格式：Rount1;Rount2;...):Des描述</wsdl:documentation>
+      <wsdl:input message="tns:GetRountByDesHttpPostIn" />
+      <wsdl:output message="tns:GetRountByDesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPageUrl1ByDes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据设备描述返回页面链接:Type=Name,Type=Des</wsdl:documentation>
+      <wsdl:input message="tns:GetPageUrl1ByDesHttpPostIn" />
+      <wsdl:output message="tns:GetPageUrl1ByDesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentModelAlarmInfo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">根据设备名称返回预警信息列表</wsdl:documentation>
+      <wsdl:input message="tns:GetCurrentModelAlarmInfoHttpPostIn" />
+      <wsdl:output message="tns:GetCurrentModelAlarmInfoHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="IEMWebServiceSoap" type="tns:IEMWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateTree">
+      <soap:operation soapAction="http://www.crtsoft.com/CreateTree" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateModelTree">
+      <soap:operation soapAction="http://www.crtsoft.com/CreateModelTree" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StaticsWarningModelList">
+      <soap:operation soapAction="http://www.crtsoft.com/StaticsWarningModelList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TStaticsModelInfoList">
+      <soap:operation soapAction="http://www.crtsoft.com/TStaticsModelInfoList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StaticsModelInfoList">
+      <soap:operation soapAction="http://www.crtsoft.com/StaticsModelInfoList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModelDataSet">
+      <soap:operation soapAction="http://www.crtsoft.com/GetModelDataSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModelStatisticsByDay">
+      <soap:operation soapAction="http://www.crtsoft.com/GetModelStatisticsByDay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TStaticsDeviceInfo">
+      <soap:operation soapAction="http://www.crtsoft.com/TStaticsDeviceInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StaticsDeviceInfo">
+      <soap:operation soapAction="http://www.crtsoft.com/StaticsDeviceInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTagDataSet">
+      <soap:operation soapAction="http://www.crtsoft.com/GetTagDataSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModelDataByTime">
+      <soap:operation soapAction="http://www.crtsoft.com/GetModelDataByTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRountByDes">
+      <soap:operation soapAction="http://www.crtsoft.com/GetRountByDes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPageUrl1ByDes">
+      <soap:operation soapAction="http://www.crtsoft.com/GetPageUrl1ByDes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentModelAlarmInfo">
+      <soap:operation soapAction="http://www.crtsoft.com/GetCurrentModelAlarmInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="IEMWebServiceSoap12" type="tns:IEMWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateTree">
+      <soap12:operation soapAction="http://www.crtsoft.com/CreateTree" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateModelTree">
+      <soap12:operation soapAction="http://www.crtsoft.com/CreateModelTree" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StaticsWarningModelList">
+      <soap12:operation soapAction="http://www.crtsoft.com/StaticsWarningModelList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TStaticsModelInfoList">
+      <soap12:operation soapAction="http://www.crtsoft.com/TStaticsModelInfoList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StaticsModelInfoList">
+      <soap12:operation soapAction="http://www.crtsoft.com/StaticsModelInfoList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModelDataSet">
+      <soap12:operation soapAction="http://www.crtsoft.com/GetModelDataSet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModelStatisticsByDay">
+      <soap12:operation soapAction="http://www.crtsoft.com/GetModelStatisticsByDay" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TStaticsDeviceInfo">
+      <soap12:operation soapAction="http://www.crtsoft.com/TStaticsDeviceInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StaticsDeviceInfo">
+      <soap12:operation soapAction="http://www.crtsoft.com/StaticsDeviceInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTagDataSet">
+      <soap12:operation soapAction="http://www.crtsoft.com/GetTagDataSet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModelDataByTime">
+      <soap12:operation soapAction="http://www.crtsoft.com/GetModelDataByTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRountByDes">
+      <soap12:operation soapAction="http://www.crtsoft.com/GetRountByDes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPageUrl1ByDes">
+      <soap12:operation soapAction="http://www.crtsoft.com/GetPageUrl1ByDes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentModelAlarmInfo">
+      <soap12:operation soapAction="http://www.crtsoft.com/GetCurrentModelAlarmInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="IEMWebServiceHttpGet" type="tns:IEMWebServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="CreateModelTree">
+      <http:operation location="/CreateModelTree" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StaticsWarningModelList">
+      <http:operation location="/StaticsWarningModelList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TStaticsModelInfoList">
+      <http:operation location="/TStaticsModelInfoList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StaticsModelInfoList">
+      <http:operation location="/StaticsModelInfoList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModelDataSet">
+      <http:operation location="/GetModelDataSet" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModelStatisticsByDay">
+      <http:operation location="/GetModelStatisticsByDay" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TStaticsDeviceInfo">
+      <http:operation location="/TStaticsDeviceInfo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StaticsDeviceInfo">
+      <http:operation location="/StaticsDeviceInfo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTagDataSet">
+      <http:operation location="/GetTagDataSet" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModelDataByTime">
+      <http:operation location="/GetModelDataByTime" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRountByDes">
+      <http:operation location="/GetRountByDes" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPageUrl1ByDes">
+      <http:operation location="/GetPageUrl1ByDes" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentModelAlarmInfo">
+      <http:operation location="/GetCurrentModelAlarmInfo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="IEMWebServiceHttpPost" type="tns:IEMWebServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="CreateModelTree">
+      <http:operation location="/CreateModelTree" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StaticsWarningModelList">
+      <http:operation location="/StaticsWarningModelList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TStaticsModelInfoList">
+      <http:operation location="/TStaticsModelInfoList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StaticsModelInfoList">
+      <http:operation location="/StaticsModelInfoList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModelDataSet">
+      <http:operation location="/GetModelDataSet" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModelStatisticsByDay">
+      <http:operation location="/GetModelStatisticsByDay" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TStaticsDeviceInfo">
+      <http:operation location="/TStaticsDeviceInfo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StaticsDeviceInfo">
+      <http:operation location="/StaticsDeviceInfo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTagDataSet">
+      <http:operation location="/GetTagDataSet" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModelDataByTime">
+      <http:operation location="/GetModelDataByTime" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRountByDes">
+      <http:operation location="/GetRountByDes" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPageUrl1ByDes">
+      <http:operation location="/GetPageUrl1ByDes" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrentModelAlarmInfo">
+      <http:operation location="/GetCurrentModelAlarmInfo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="IEMWebService">
+    <wsdl:port name="IEMWebServiceSoap" binding="tns:IEMWebServiceSoap">
+      <soap:address location="http://10.206.1.81/iem/iemwebservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="IEMWebServiceSoap12" binding="tns:IEMWebServiceSoap12">
+      <soap12:address location="http://10.206.1.81/iem/iemwebservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="IEMWebServiceHttpGet" binding="tns:IEMWebServiceHttpGet">
+      <http:address location="http://10.206.1.81/iem/iemwebservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="IEMWebServiceHttpPost" binding="tns:IEMWebServiceHttpPost">
+      <http:address location="http://10.206.1.81/iem/iemwebservice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

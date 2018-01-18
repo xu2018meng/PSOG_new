@@ -1,0 +1,31 @@
+﻿{"rows":[{
+	"id":1,
+	"reason":"油品接受压力不稳定",
+	"action":"联系油品进行调节"
+},{
+	"id":3,
+	"reason":"FR-120流量计故障",
+	"action":"检修处理"
+},{
+	"id":4,
+	"reason":"GA-103A/B出口压力波动",
+	"state":"closed",
+	"children":[{
+		"id":5,
+		"reason":"过滤器堵塞",
+		"action":"检修清理"
+	},{
+		"id":6,
+		"reason":"燃料油黏度S-117异常（大于180mm2/s）",
+		"action":"调整燃料油黏度"
+	},{
+		"id":7,
+		"reason":"过滤器有不凝气",
+		"action":"进行排气"
+	}]
+},{
+	"id":8,
+	"reason":"FR-120流量计故障",
+	"action":"检修处理"
+}
+]}

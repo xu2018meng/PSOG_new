@@ -1,0 +1,187 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+ <head>
+  <title></title>
+
+        <script type="text/javascript">
+             function switchTab(ProTag, ProBox) {
+                for (i = 1; i < 3; i++) {
+                    if ("tab" + i == ProTag) {
+                        document.getElementById(ProTag).getElementsByTagName("a")[0].className = "on";
+                    } else {
+                        document.getElementById("tab" + i).getElementsByTagName("a")[0].className = "";
+                    }
+                    if ("con" + i == ProBox) {
+                        document.getElementById(ProBox).style.display = "";
+                    } else {
+                        document.getElementById("con" + i).style.display = "none";
+                    }
+                }
+            }
+
+            function GetValue(obj)
+            {
+               // alert("qqqq");
+              //  alert(obj.value);
+             //   alert(obj.id);
+       //  var arr = obj.id.split(',');
+
+               // alert("qqqq");
+               // alert(obj.value);
+                //alert(obj.id);
+                //alert(obj.id);
+                //alert(obj.value)
+		//alert(obj.value);
+		 //  var arr = obj.id.split(',');
+
+		// window.external.ShowDetail(arr[0],arr[1],obj.value);
+                //alert(obj.id);
+                //alert(obj.value)
+            }
+            function getValue2(obj)
+            {
+               // alert("qqqq");
+             //   alert(obj.innerText);
+           //     alert(obj.id);
+                //alert(obj.id);
+               // alert()
+                //  var arr = obj.id.split(',');
+             if(obj.innerText==null||obj.innerText==""){ window.external.leftButton(obj["value"]);return;}
+		       window.external.leftButton(obj.innerText);//点击按钮
+            }
+            function getValue3(obj)
+            {
+               // alert("qqqq");
+               // alert(obj.innerText);
+               
+                //alert(obj.id);
+                //alert(obj.value)
+               var arr = obj.id.split(',');
+            //    alert(arr[0]+arr[1]+obj.innerText);
+		       window.external.ShowDetail(arr[0],arr[1],obj.innerText);
+            }
+           function show(a)
+            //function show()
+            {
+                //var jsonStr = "[{ 'id':'1','name':'反应','state':'正常','exc':''},{'id':2,'name':'再生','state':'异常',exc:[{'sid':'id','text':'原油带水'},{'sid':'id2','text':'碳堆积'}]},{ 'id':'3','name':'分馏','state':'正常','exc':''},{ 'id':'4','name':'脱硫','state':'正常','exc':''},{'id':5,'name':'精制','state':'异常',exc:[{'sid':'id3','text':'原料泄露'},{'sid':'id4','text':'碳堆积'}]},{ 'id':'6','name':'碱洗','state':'正常','exc':''}]";
+                var jsonStr = a;
+                //alert(jsonStr);
+                var jsonObj = eval(jsonStr);
+                
+                var len = jsonObj.length;
+                var table = document.getElementById("tableid");
+                table.firstChild.removeNode(true);
+
+                var row = table.insertRow(-1);
+                var j = 0;
+                for(var i = 0; i < len; i++)
+                {
+                    if(i!=0&&i%3==0)
+                    {
+                        
+                        row = table.insertRow(-1);
+                        j=0;
+                    }
+                    row.height="30";
+                    var cell = row.insertCell(j);
+                    if(jsonObj[i].state=="正常")
+                    {
+                        var str = "<table ><tr height='20'><td><img src='resource/img/green.jpg' onclick='getValue2(this)' value='"+jsonObj[i].name+"'  style='height:40px;width:40px;cursor:pointer' alt='red' /> <label style='color:green;font-size:medium;cursor:pointer'  value='"+jsonObj[i].name+"' onclick='getValue2(this)'>"+jsonObj[i].name +"</label></td></tr><tr><td><label style='font-size:small;color:"+"green"+"'>运行状态："+"正常"+"</label></td></tr><tr height='20'><td>异常状况：<label>"+"无"+"</label></td></tr></table>";
+                        cell.innerHTML = str;
+                         cell.style.cssText="height: auto; vertical-align: top;";
+                    }
+                    else if(jsonObj[i].state=="异常")
+                    {
+                        var str2 ="<table ><tr height='20' ><td ><img src='resource/img/red.jpg' onclick='getValue2(this)'  value='"+jsonObj[i].name+"' style='height:40px;width:40px;cursor:pointer' alt='red' /> <label style='color:green;font-size:medium;cursor:pointer'  value='"+jsonObj[i].name+"' onclick='getValue2(this)'>"+jsonObj[i].name +"</label></td></tr><tr><td><label style='font-size:small;color:"+"red"+"'>运行状态："+"异常"+"</label></td></tr><tr height='20'><td>异常状况：<label></label></td></tr>";
+      
+                        var len2 = jsonObj[i].exc.length;
+              
+                        for(var k=0;k<len2;k++)
+                        {
+                            str2 =str2+ "<tr height='20'><td><label id='"+jsonObj[i].exc[k].twoID+"' value='"+jsonObj[i].exc[k].Text+"' onclick='getValue3(this)' style='font-size:13px;color:red;cursor:pointer'>"+jsonObj[i].exc[k].Text+"</label></td></tr>";
+                            
+                        }
+                        
+                        str2 =str2+ "</table>";
+                        cell.innerHTML = str2;
+                        cell.style.cssText="height: auto; vertical-align: top;";
+                       
+                    }
+                    else
+                    {
+                        alert("数据有误！");
+                    }
+                    j = j+1;
+                    
+                }
+ 
+            }
+           function test(a,b) 
+            {
+                    
+                
+            }
+            function test2() 
+            {  
+              
+            }
+
+                //初始化列表样式
+	        function initTableStyle() {
+		        $(".scTable tr:odd").css("background", "#eef9ff");
+		        $(".scTable tr:odd input").css("background", "#eef9ff");
+		        $(".scTable tr:even").css("background", "#ffffff");
+		        $(".scTable tr:even input").css("background", "#ffffff");
+	        }
+        </script>
+        <link href="../testWin/css/mycss.css" rel="stylesheet" type="text/css" />
+        <link type="text/css" rel="stylesheet" href="../testWin/css/Style.css" />
+        <script language="javascript" type="text/javascript" src="../testWin/js/jquery.js"></script>
+         <script language="javascript" type="text/javascript" src="../testWin/js/jquery-1.6.2.min.js"></script>
+        <style type="text/css">
+		    html, body, #chartContainer {
+			    width: 100%;
+			    height: 98%;
+			    padding: 0;
+			    margin: 0;
+		    }
+            .scTable {
+            border:1px #bebfbf solid;
+            }
+	        .scTable th {
+		        background: #cfe3dc;
+		        padding:6px;
+		        border:1px #bfcfda solid;
+		        font-weight: normal;
+	        }
+	        .scTable td {
+				        border:1px #bfcfda solid;
+		        text-align: center;
+	        }
+	        .scTable td a {
+		        text-decoration: underline;
+		        cursor: pointer;
+	        }
+	         #tabContainer
+                {
+                    margin: 5px;
+                }
+                #tabContainer li
+                {
+                    float: left;
+                    width: 80px;
+                    margin: 0 0px;
+                   
+                    text-align: center;
+                }
+                
+	    </style>
+	<script type="text/javascript"  src="../testWin/resource/chartjs/AnyChart.js"></script>
+ </head>
+ <body >
+         <div style="font-size:medium;padding:10 0 0 20;font-family:微软雅黑;">工艺监测总览</div> 
+        <table    border="0" cellpadding="0" style="margin:30,20,20,60"  cellspacing="0" width="90%" id="tableid"  >
+        
+        </table>
+ </body>
+</html>

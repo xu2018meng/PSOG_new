@@ -1,0 +1,47 @@
+﻿{"rows":[{
+	"id":1,
+	"reason":"塔压PIC401过低（低于2.2MPa）",
+	"state":"closed",
+	"children":[{
+		"id":2,
+		"reason":"FRC404采出过多（多于50KNm3/h）",
+		"action":"保持塔压稳定"
+	}]
+},{
+	"id":3,
+	"reason":"PS蒸汽进EA401流量FIC442过低（低于1.8T/h）",
+	"state":"closed",
+	"children":[{
+		"id":4,
+		"reason":"FIC442阀位开度过小（小于10%）",
+		"action":"增加PS流量"
+	}]
+},{
+	"id":5,
+	"reason":"凝液罐FA409液位LIC423过低（低于10%）",
+	"state":"closed",
+	"children":[{
+		"id":6,
+		"reason":"LIC423阀位开度过大（大于90%）",
+		"action":"维持FA409液面30%~50%"
+	}]
+},{
+	"id":7,
+	"reason":"急冷水进EA401B流量FIC482过低（低于320T/h）",
+	"state":"closed",
+	"children":[{
+		"id":8,
+		"reason":"FIC482阀位开度过小（小于10%）",
+		"action":"减小QW阀位开度"
+	}]
+},{
+	"id":9,
+	"reason":"急冷水温度TI133过低（低于86℃）",
+	"state":"closed",
+	"children":[{
+		"id":10,
+		"reason":"EA130/131冷却水阀位开度过大",
+		"action":"减小冷却水阀位开度"
+	}]
+}
+]}

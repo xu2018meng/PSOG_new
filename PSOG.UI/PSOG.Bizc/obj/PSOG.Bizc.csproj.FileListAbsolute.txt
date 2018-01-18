@@ -1,0 +1,268 @@
+D:\PSOG.UI\PSOG.Bizc\obj\Debug\ResolveAssemblyReference.cache
+D:\PSOG.UI\PSOG.Bizc\obj\Release\ResolveAssemblyReference.cache
+D:\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Bizc.dll.config
+D:\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Bizc.dll
+D:\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Bizc.XmlSerializers.dll
+D:\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Bizc.pdb
+D:\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Common.dll
+D:\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.DAO.dll
+D:\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Entity.dll
+D:\PSOG.UI\PSOG.Bizc\bin\Release\log4net.dll
+D:\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.DAO.pdb
+D:\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Entity.pdb
+D:\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Common.pdb
+D:\PSOG.UI\PSOG.Bizc\obj\Release\PSOG.Bizc.dll
+D:\PSOG.UI\PSOG.Bizc\obj\Release\PSOG.Bizc.pdb
+D:\PSOG.UI\PSOG.Bizc\obj\Release\PSOG.Bizc.XmlSerializers.dll
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.Bizc.dll.config
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.Bizc.dll
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.Bizc.XmlSerializers.dll
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.Bizc.pdb
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.Common.dll
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.DAO.dll
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Bizc\bin\Release\log4net.dll
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.DAO.pdb
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.Common.pdb
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Bizc\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Bizc\obj\Release\PSOG.Bizc.dll
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Bizc\obj\Release\PSOG.Bizc.pdb
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.Bizc\obj\Release\PSOG.Bizc.XmlSerializers.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.Bizc.dll.config
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.Bizc.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.Bizc.XmlSerializers.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.Bizc.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.Common.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.DAO.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Bizc\bin\Release\log4net.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.DAO.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Bizc\bin\Release\PSOG.Common.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Bizc\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Bizc\obj\Release\PSOG.Bizc.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Bizc\obj\Release\PSOG.Bizc.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.Bizc\obj\Release\PSOG.Bizc.XmlSerializers.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Bizc.dll.config
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Bizc.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Bizc.XmlSerializers.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Bizc.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Common.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.DAO.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Bizc\bin\Release\log4net.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.DAO.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Common.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Bizc\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Bizc\obj\Release\PSOG.Bizc.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Bizc\obj\Release\PSOG.Bizc.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.Bizc\obj\Release\PSOG.Bizc.XmlSerializers.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Bizc.dll.config
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Bizc.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Bizc.XmlSerializers.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Bizc.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Common.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.DAO.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Release\log4net.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.DAO.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Release\PSOG.Common.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\obj\Release\PSOG.Bizc.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\obj\Release\PSOG.Bizc.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\obj\Release\PSOG.Bizc.XmlSerializers.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll.config
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.pdb
+E:\PSOG\PSOG.UI\PSOG.Bizc\obj\Release\ResolveAssemblyReference.cache
+E:\PSOG\PSOG.UI\PSOG.Bizc\obj\Release\PSOG.Bizc.dll
+E:\PSOG\PSOG.UI\PSOG.Bizc\obj\Release\PSOG.Bizc.pdb
+E:\PSOG\PSOG.UI\PSOG.Bizc\obj\Release\PSOG.Bizc.XmlSerializers.dll
+E:\PSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll.config
+E:\PSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll
+E:\PSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.pdb
+E:\PSOG\PSOG.UI\PSOG.Bizc\bin\Debug\itextsharp.dll
+E:\PSOG\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Office.Interop.Word.dll
+E:\PSOG\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\PSOG\PSOG.UI\PSOG.Bizc\bin\Debug\office.dll
+E:\PSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.dll
+E:\PSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.dll
+E:\PSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.dll
+E:\PSOG\PSOG.UI\PSOG.Bizc\bin\Debug\Svg.dll
+E:\PSOG\PSOG.UI\PSOG.Bizc\bin\Debug\log4net.dll
+E:\PSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.pdb
+E:\PSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.pdb
+E:\PSOG\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Office.Interop.Word.xml
+E:\PSOG\PSOG.UI\PSOG.Bizc\bin\Debug\office.xml
+E:\PSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.pdb
+E:\PSOG\PSOG.UI\PSOG.Bizc\obj\Debug\ResolveAssemblyReference.cache
+E:\PSOG\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.dll
+E:\PSOG\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.pdb
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll.config
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.pdb
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\bin\Debug\itextsharp.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Office.Interop.Word.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\bin\Debug\office.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\bin\Debug\Svg.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\bin\Debug\log4net.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.pdb
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.pdb
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Office.Interop.Word.xml
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\bin\Debug\office.xml
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.pdb
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\obj\Debug\ResolveAssemblyReference.cache
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll.config
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\bin\Debug\itextsharp.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Office.Interop.Word.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\bin\Debug\office.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\bin\Debug\Svg.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\bin\Debug\log4net.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Office.Interop.Word.xml
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\bin\Debug\office.xml
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\obj\Debug\ResolveAssemblyReference.cache
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll.config
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\bin\Debug\itextsharp.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Office.Interop.Word.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\bin\Debug\office.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\bin\Debug\Svg.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\bin\Debug\log4net.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Office.Interop.Word.xml
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\bin\Debug\office.xml
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\obj\Debug\ResolveAssemblyReference.cache
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll.config
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\itextsharp.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Office.Interop.Word.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\office.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\Svg.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\log4net.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Office.Interop.Word.xml
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\office.xml
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\obj\Debug\ResolveAssemblyReference.cache
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.pdb
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll.config
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.pdb
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\itextsharp.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Office.Interop.Word.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\office.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\Svg.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\log4net.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.pdb
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.pdb
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Office.Interop.Word.xml
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\office.xml
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.pdb
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\obj\Debug\ResolveAssemblyReference.cache
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.pdb
+E:\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll.config
+E:\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll
+E:\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.pdb
+E:\PSOG.UI\PSOG.Bizc\bin\Debug\itextsharp.dll
+E:\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Office.Interop.Word.dll
+E:\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\PSOG.UI\PSOG.Bizc\bin\Debug\office.dll
+E:\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.dll
+E:\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.dll
+E:\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.dll
+E:\PSOG.UI\PSOG.Bizc\bin\Debug\Svg.dll
+E:\PSOG.UI\PSOG.Bizc\bin\Debug\log4net.dll
+E:\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.pdb
+E:\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.pdb
+E:\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Office.Interop.Word.xml
+E:\PSOG.UI\PSOG.Bizc\bin\Debug\office.xml
+E:\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.pdb
+E:\PSOG.UI\PSOG.Bizc\obj\Debug\ResolveAssemblyReference.cache
+E:\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.dll
+E:\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.pdb
+F:\ZHPSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll.config
+F:\ZHPSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll
+F:\ZHPSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.pdb
+F:\ZHPSOG\PSOG.UI\PSOG.Bizc\bin\Debug\itextsharp.dll
+F:\ZHPSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.dll
+F:\ZHPSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.dll
+F:\ZHPSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.dll
+F:\ZHPSOG\PSOG.UI\PSOG.Bizc\bin\Debug\Svg.dll
+F:\ZHPSOG\PSOG.UI\PSOG.Bizc\bin\Debug\log4net.dll
+F:\ZHPSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.pdb
+F:\ZHPSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.pdb
+F:\ZHPSOG\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.pdb
+F:\ZHPSOG\PSOG.UI\PSOG.Bizc\obj\Debug\ResolveAssemblyReference.cache
+F:\ZHPSOG\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.dll
+F:\ZHPSOG\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.pdb
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll.config
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.dll
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Bizc.pdb
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\bin\Debug\itextsharp.dll
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Office.Interop.Word.dll
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Vbe.Interop.dll
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\bin\Debug\office.dll
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.dll
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.dll
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.dll
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\bin\Debug\Svg.dll
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\bin\Debug\log4net.dll
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.DAO.pdb
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Entity.pdb
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\bin\Debug\Microsoft.Office.Interop.Word.xml
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\bin\Debug\office.xml
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\bin\Debug\PSOG.Common.pdb
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\obj\Debug\ResolveAssemblyReference.cache
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.dll
+F:\运行指导项目\PSOG.UI\PSOG.Bizc\obj\Debug\PSOG.Bizc.pdb

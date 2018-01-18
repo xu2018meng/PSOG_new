@@ -1,0 +1,37 @@
+﻿{"rows":[{
+	"id":1,
+	"reason":"助凝剂加入不足",
+	"state":"closed",
+	"children":[{
+		"id":2,
+		"reason":"GA410B冲程小（小于30）",
+		"action":"增加冲程"
+	},{
+		"id":3,
+		"reason":"注入点堵塞，GA410B泵出口压力高（高于2MPa）",
+		"action":"清理堵塞"
+	},{
+		"id":4,
+		"reason":"GA410B故障",
+		"action":"联系运保检修"
+	}]
+},{
+	"id":5,
+	"reason":"再沸器运行时间长",
+	"action":"切换再沸器"
+},{
+	"id":6,
+	"reason":"塔釜温度高，阻聚效果差（高于80℃）",
+	"state":"closed",
+	"children":[{
+		"id":7,
+		"reason":"塔釜PS加热流量大（大于24T/h）",
+		"state":"closed",
+	        "children":[{
+	        	"id":8,
+	        	"reason":"FIC2452开度大（大于70%）",
+	        	"action":"降低调节阀开度"
+                	}]
+	}]
+}
+]}

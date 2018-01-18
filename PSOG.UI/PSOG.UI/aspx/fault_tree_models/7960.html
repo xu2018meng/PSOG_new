@@ -1,0 +1,45 @@
+{"rows":[{
+	"id":1,
+	"reason":"急冷器堵塞",
+	"state":"closed",
+	"children":[{
+		"id":2,
+		"reason":"防焦蒸汽中断",
+		"action":"投用防焦蒸汽"
+	}]
+},{
+	"id":3,
+	"reason":"辐射段炉管堵塞",
+	"action":"停炉烧焦"
+},{
+	"id":4,
+	"reason":"废锅堵塞",
+	"state":"closed",
+	"children":[{
+		"id":5,
+		"reason":"废锅结焦",
+		"action":"停炉烧焦"
+	},{
+		"id":6,
+		"reason":"下封头焦块、耐火材料脱落",
+		"action":"停炉烧焦"
+	}]
+},{
+	"id":7,
+	"reason":"裂解气出口阀没全开现场压差指示过高",
+	"state":"closed",
+	"children":[{
+		"id":8,
+		"reason":"闸板下落",
+		"action":"停炉修阀"
+	},{
+		"id":9,
+		"reason":"防焦蒸汽中断",
+		"action":"投用防焦蒸汽"
+	}]
+},{
+	"id":10,
+	"reason":"仪表指示故障",
+	"action":"联系检修仪表"
+}
+]}

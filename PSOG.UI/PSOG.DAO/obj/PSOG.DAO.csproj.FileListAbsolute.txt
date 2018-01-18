@@ -1,0 +1,152 @@
+D:\PSOG.UI\PSOG.DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\PSOG.UI\PSOG.DAO\obj\Release\ResolveAssemblyReference.cache
+D:\PSOG.UI\PSOG.DAO\bin\Release\PSOG.DAO.dll
+D:\PSOG.UI\PSOG.DAO\bin\Release\PSOG.DAO.pdb
+D:\PSOG.UI\PSOG.DAO\bin\Release\PSOG.Common.dll
+D:\PSOG.UI\PSOG.DAO\bin\Release\PSOG.Entity.dll
+D:\PSOG.UI\PSOG.DAO\bin\Release\NPOI.dll
+D:\PSOG.UI\PSOG.DAO\bin\Release\PSOG.Entity.pdb
+D:\PSOG.UI\PSOG.DAO\bin\Release\PSOG.Common.pdb
+D:\PSOG.UI\PSOG.DAO\obj\Release\PSOG.DAO.dll
+D:\PSOG.UI\PSOG.DAO\obj\Release\PSOG.DAO.pdb
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.DAO\bin\Release\PSOG.DAO.dll
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.DAO\bin\Release\PSOG.DAO.pdb
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.DAO\bin\Release\PSOG.Common.dll
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.DAO\bin\Release\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.DAO\bin\Release\NPOI.dll
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.DAO\bin\Release\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.DAO\bin\Release\PSOG.Common.pdb
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.DAO\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.DAO\obj\Release\PSOG.DAO.dll
+C:\Users\Administrator\Desktop\PSOG.UIligong\PSOG.DAO\obj\Release\PSOG.DAO.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.DAO\bin\Release\PSOG.DAO.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.DAO\bin\Release\PSOG.DAO.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.DAO\bin\Release\PSOG.Common.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.DAO\bin\Release\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.DAO\bin\Release\NPOI.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.DAO\bin\Release\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.DAO\bin\Release\PSOG.Common.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.DAO\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.DAO\obj\Release\PSOG.DAO.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UIligong\PSOG.DAO\obj\Release\PSOG.DAO.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.DAO\bin\Release\PSOG.DAO.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.DAO\bin\Release\PSOG.DAO.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.DAO\bin\Release\PSOG.Common.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.DAO\bin\Release\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.DAO\bin\Release\NPOI.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.DAO\bin\Release\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.DAO\bin\Release\PSOG.Common.pdb
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.DAO\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.DAO\obj\Release\PSOG.DAO.dll
+C:\Users\Administrator\Desktop\报警分析\开停车交接文件\PSOG.UI\PSOG.DAO\obj\Release\PSOG.DAO.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\bin\Release\PSOG.DAO.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\bin\Release\PSOG.Common.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\bin\Release\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\bin\Release\NPOI.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\bin\Release\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\bin\Release\PSOG.Common.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\obj\Release\PSOG.DAO.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\obj\Release\PSOG.DAO.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\bin\Debug\NPOI.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.dll
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.pdb
+C:\Users\Administrator\Desktop\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.dll
+E:\PSOG\PSOG.UI\PSOG.DAO\obj\Release\ResolveAssemblyReference.cache
+E:\PSOG\PSOG.UI\PSOG.DAO\obj\Release\PSOG.DAO.pdb
+E:\PSOG\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.dll
+E:\PSOG\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.pdb
+E:\PSOG\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.dll
+E:\PSOG\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.dll
+E:\PSOG\PSOG.UI\PSOG.DAO\bin\Debug\NPOI.dll
+E:\PSOG\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.pdb
+E:\PSOG\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.pdb
+E:\PSOG\PSOG.UI\PSOG.DAO\obj\Debug\ResolveAssemblyReference.cache
+E:\PSOG\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.dll
+E:\PSOG\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.pdb
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.pdb
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.DAO\bin\Debug\NPOI.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.pdb
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.pdb
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.dll
+D:\PSOG版本\PSOG.UI of JJ standard 0413\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.DAO\bin\Debug\NPOI.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0709\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.DAO\bin\Debug\NPOI.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0715\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\bin\Debug\NPOI.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.pdb
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.dll
+D:\PSOG版本\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.pdb
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.pdb
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\bin\Debug\NPOI.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.pdb
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.pdb
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\obj\Debug\ResolveAssemblyReference.cache
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.dll
+E:\文件\PSOG.UI of ZH standard 0719\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.pdb
+E:\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.dll
+E:\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.pdb
+E:\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.dll
+E:\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.dll
+E:\PSOG.UI\PSOG.DAO\bin\Debug\NPOI.dll
+E:\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.pdb
+E:\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.pdb
+E:\PSOG.UI\PSOG.DAO\obj\Debug\ResolveAssemblyReference.cache
+E:\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.dll
+E:\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.pdb
+F:\ZHPSOG\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.dll
+F:\ZHPSOG\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.pdb
+F:\ZHPSOG\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.dll
+F:\ZHPSOG\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.dll
+F:\ZHPSOG\PSOG.UI\PSOG.DAO\bin\Debug\NPOI.dll
+F:\ZHPSOG\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.pdb
+F:\ZHPSOG\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.pdb
+F:\ZHPSOG\PSOG.UI\PSOG.DAO\obj\Debug\ResolveAssemblyReference.cache
+F:\ZHPSOG\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.dll
+F:\ZHPSOG\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.pdb
+F:\运行指导项目\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.dll
+F:\运行指导项目\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.pdb
+F:\运行指导项目\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.dll
+F:\运行指导项目\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.dll
+F:\运行指导项目\PSOG.UI\PSOG.DAO\bin\Debug\NPOI.dll
+F:\运行指导项目\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.pdb
+F:\运行指导项目\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.pdb
+F:\运行指导项目\PSOG.UI\PSOG.DAO\obj\Debug\ResolveAssemblyReference.cache
+F:\运行指导项目\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.dll
+F:\运行指导项目\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.pdb

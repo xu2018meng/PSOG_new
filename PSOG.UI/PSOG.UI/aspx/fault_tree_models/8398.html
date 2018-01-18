@@ -1,0 +1,36 @@
+﻿{"rows":[{
+	"id":1,
+	"reason":"原料中酸性物质含量高（大于250ppm）",
+	"action":"调整原料结构"
+},{
+	"id":2,
+	"reason":"急冷系统排污量大",
+	"state":"closed",
+	"children":[{
+		"id":3,
+		"reason":"GA-107D/E出口阀开度大",
+		"action":"减少手阀开度"
+	},{
+		"id":4,
+		"reason":"FA-122A/B含酚污水排污量大（FCV2102、FCV2124处于全开状态）",
+		"action":"调整排污量"
+	}]
+},{
+	"id":5,
+	"reason":"急冷系统碱量小",
+	"state":"closed",
+	"children":[{
+		"id":8,
+		"reason":"GA-111A/B故障",
+		"action":"检修处理"
+	},{
+		"id":9,
+		"reason":"GA-111A/B计量泵冲程小（小于20%）",
+		"action":"增加冲程"
+	},{
+		"id":6,
+		"reason":"碱浓度小（小于20%）",
+		"action":"调整碱浓度"
+	}]
+}
+]}

@@ -1,0 +1,58 @@
+﻿{"rows":[{
+	"id":1,
+	"reason":"液面计LI2306失灵，指示读数不属实",
+	"state":"closed",
+	"children":[{
+		"id":2,
+		"reason":"液面计堵塞",
+		"action":"清理"
+	},{
+		"id":3,
+		"reason":"液位计仪表故障，假指示",
+		"action":"联系检修仪表"
+	}]
+},{
+	"id":4,
+	"reason":"喷淋阀TCV2306开度过大（阀位过高）",
+	"action":"降低开度"
+},{
+	"id":5,
+	"reason":"FA-351鼓泡器加热量不足",
+	"state":"closed",
+	"children":[{
+		"id":6,
+		"reason":"调节阀HCV2303开度过小（HCV2303阀位低）",
+		"action":"增加开度"
+	},{
+		"id":7,
+		"reason":"调节阀HCV2303实际开度小于设定值",
+		"action":"联系检修仪表"
+	}]
+},{
+	"id":8,
+	"reason":"FA-351加热盘管无法提供足够热量",
+	"state":"closed",
+	"children":[{
+		"id":10,
+		"reason":"加热盘管手阀开度小",
+		"action":"增加开度"
+	},{
+		"id":9,
+		"reason":"加热盘管堵塞",
+		"action":"清理"
+	}]
+},{
+	"id":11,
+	"reason":"反凝罐FA-358手阀开度过大或失灵",
+	"action":"检查、关小手阀"
+},{
+	"id":12,
+	"reason":"新冷箱负荷降低",
+	"state":"closed",
+	"children":[{
+		"id":13,
+		"reason":"EA-355、EA-356、EA-357用户所消耗冷量减少",
+		"action":"  "
+	}]
+}
+]}

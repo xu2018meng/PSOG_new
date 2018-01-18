@@ -1,0 +1,28 @@
+﻿{"rows":[{
+	"id":4,
+	"reason":"对流段积灰",
+	"state":"closed",
+	"children":[{
+		"id":5,
+		"reason":"燃料气组成变化",
+		"action":"缩短吹灰周期"
+	},{
+		"id":6,
+		"reason":"吹灰周期太长",
+		"action":"缩短吹灰周期"
+	}]
+},{
+	"id":7,
+	"reason":"进风量大AI10521A/B氧含量高（高于3%）",
+	"state":"closed",
+	"children":[{
+		"id":8,
+		"reason":"风门开太大",
+		"action":"调整风门"
+	},{
+		"id":9,
+		"reason":"炉膛压力PIC105-01太低（低于-80Pa）",
+		"action":"提高炉膛压力"
+	}]
+}
+]}

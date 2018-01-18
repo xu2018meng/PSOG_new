@@ -1,0 +1,59 @@
+﻿<anychart>
+  <settings>
+    <animation enabled="True"/>
+  </settings>
+  <charts>
+    <chart plot_type="CategorizedVertical">
+      <data_plot_settings default_series_type="Bar">
+        <bar_series point_padding="0.2" group_padding="1">
+          <label_settings enabled="true">
+            <background enabled="false"/>
+            <font color="DarkColor(%Color)"/>
+            <format>{%YValue}{numDecimals:0}</format>
+            <effects>
+              <drop_shadow enabled="true" opacity="1"/>
+            </effects>
+          </label_settings>
+          <tooltip_settings enabled="false">
+            <!--<format>P: {%P}{numDecimals:0},E: {%E}{numDecimals:0},R:{%R}{numDecimals:0},A:{%A}{numDecimals:0}</format>-->
+            <format><![CDATA[P(人员):{%P}{numDecimals:0}\nE(环境):{%E}{numDecimals:0}\nR(声誉):{%R}{numDecimals:0}\nA(财产):{%A}{numDecimals:0}]]></format>
+            <background>
+              <border color="DarkColor(%Color)"/>
+            </background>
+            <font color="DarkColor(%Color)"/>
+          </tooltip_settings>
+        </bar_series>
+      </data_plot_settings>
+      <chart_settings>
+        <title enabled="true">
+          <text>统计分析</text>
+        </title>
+        <axes>
+          <x_axis>
+            <title enabled="true">
+              <text>公司名称</text>
+            </title>
+          </x_axis>
+          <y_axis>
+            <title enabled="true">
+              <text>通过审查的项目个数</text>
+            </title>
+            <scale major_interval="1" minor_interval="1" />
+          </y_axis>
+        </axes>
+        <legend enabled="false" position="Right" align="Near">
+          <format>{%Icon} {%Name}{numDecimals:0}</format>
+          <template></template>
+          <title enabled="false"/>
+          <columns_separator enabled="false"/>
+          <background>
+            <inside_margin left="10" right="10"/>
+          </background>
+        </legend>
+      </chart_settings>
+      <data>
+        
+      </data>
+    </chart>
+  </charts>
+</anychart>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="../../resource/jquery/easyui/themes/black/easyui.css">
+	<link rel="stylesheet" type="text/css" href="../../resource/jquery/easyui/themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="../../resource/jquery/easyui/demo.css">
+	<script type="text/javascript" src="../../resource/jquery/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../../resource/jquery/easyui/themes/jquery.easyui.min.js"></script>
+</head>
+<body>
+	<table  class="easyui-treegrid" style="width:615px;height:200px;"
+            data-options="
+                url: 'treegrid_data1.json',
+                method: 'get',
+                nowrap:false,
+                rownumbers: false,
+                idField: 'id',
+                treeField: 'reason',
+                fitColumns:true
+            ">
+        <thead>
+            <tr>
+                <th data-options="field:'reason',styler:cellStyler" width="200">根原因</th>
+                <th data-options="field:'action',styler:cellStyler" width="200">建议措施</th>
+            </tr>
+        </thead>
+    </table>
+
+</body>
+</html>
+<script type="text/javascript">
+    function cellStyler(value,row,index){
+		return 'border:none;';
+	}
+</script>

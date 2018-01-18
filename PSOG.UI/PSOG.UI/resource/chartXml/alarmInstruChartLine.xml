@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<anychart>
+	<settings>
+		<animation enabled="True"/>
+	</settings>
+  <charts>
+    <chart plot_type="CategorizedVertical">
+    	<chart_settings>
+    		<title>
+    			<text></text>
+          <font render_as_html="True" />
+    			<background enabled="false"/>
+    		</title>
+			<chart_background enabled="false"/>
+        <axes>
+          <x_axis>
+              <labels enabled="true" width="80"  display_mode="rotated" align="Inside">
+                  <format><![CDATA[{%Value}{maxChar:15,maxCharFinalChars:...}]]></format>
+              </labels>
+            <title enabled="true">
+				<text>时间</text>
+            </title>
+          </x_axis>
+          <y_axis>
+            <title enabled="true">
+              <text>实际值</text>
+            </title>
+          </y_axis>
+        </axes>
+        <legend enabled="true" position="Top" align="Center">
+          <format>{%Icon} {%Name}</format>
+          <template>
+          </template>
+          <title enabled="false" />
+          <columns_separator enabled="false" />
+          <background>
+            <inside_margin left="10" right="10" />
+          </background>
+        </legend>
+    	</chart_settings>
+    	
+    	<data_plot_settings default_series_type="Spline">
+    		<line_series>
+    			<marker_settings>
+    					<marker size="0"/>
+    					<states>
+    						<hover>
+    							<marker size="12"/>
+    						</hover>
+    					</states>
+    			</marker_settings>
+				<tooltip_settings enabled="True">
+					<format><![CDATA[ 数值：{%YValue}{numDecimals:4}\n 时间：{%Name}]]></format>
+				</tooltip_settings>
+    		</line_series>
+    	</data_plot_settings>
+    
+	    <data>
+			<series name="实时值" color="green">
+				<point name="无记录" y="0" />
+      </series>
+            <series name="正常值上限" color="RGB(255,0,0)">
+        <point name="无记录" y="0" />
+      </series>
+      <series name="经验值上限" color="RGB(255,0,255)">
+        <point name="无记录" y="0" />
+      </series>
+      <series name="经验值下限" color="RGB(0,255,255)">
+        <point name="无记录" y="0" />
+      </series>
+      
+      <series name="正常值下限" color="RGB(0,0,255)">
+        <point name="无记录" y="0" />
+      </series>
+        
+	    </data>
+    </chart>
+  </charts>
+</anychart>
+			
+			

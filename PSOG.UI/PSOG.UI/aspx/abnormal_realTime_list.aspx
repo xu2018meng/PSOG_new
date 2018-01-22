@@ -8,7 +8,7 @@
        String plantId = Request.QueryString["plantId"];
        plantId = null == plantId ? "" : plantId;
     %>
-    <title></title>
+    <title>实时数据</title>
     <link href="../resource/jquery/easyui/themes/default/easyui.css" rel="stylesheet" />    
     <link rel="stylesheet" type="text/css" href="../resource/jquery/easyui/themes/icon.css" />
     <link rel="stylesheet" type="text/css" href="../resource/jquery/easyui/themes/default/demo.css" />

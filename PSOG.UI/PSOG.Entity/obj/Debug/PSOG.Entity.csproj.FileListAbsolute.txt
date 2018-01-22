@@ -1,0 +1,5 @@
+F:\GitHub\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.dll
+F:\GitHub\PSOG.UI\PSOG.Entity\bin\Debug\PSOG.Entity.pdb
+F:\GitHub\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.csprojResolveAssemblyReference.cache
+F:\GitHub\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.dll
+F:\GitHub\PSOG.UI\PSOG.Entity\obj\Debug\PSOG.Entity.pdb

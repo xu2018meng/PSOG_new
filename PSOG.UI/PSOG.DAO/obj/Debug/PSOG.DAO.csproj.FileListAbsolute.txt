@@ -1,0 +1,10 @@
+F:\GitHub\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.dll
+F:\GitHub\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.DAO.pdb
+F:\GitHub\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.dll
+F:\GitHub\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.dll
+F:\GitHub\PSOG.UI\PSOG.DAO\bin\Debug\NPOI.dll
+F:\GitHub\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Common.pdb
+F:\GitHub\PSOG.UI\PSOG.DAO\bin\Debug\PSOG.Entity.pdb
+F:\GitHub\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.csprojResolveAssemblyReference.cache
+F:\GitHub\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.dll
+F:\GitHub\PSOG.UI\PSOG.DAO\obj\Debug\PSOG.DAO.pdb

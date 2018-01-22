@@ -1,0 +1,7 @@
+F:\GitHub\PSOG.UI\PSOG.Common\bin\Debug\PSOG.Common.dll
+F:\GitHub\PSOG.UI\PSOG.Common\bin\Debug\PSOG.Common.pdb
+F:\GitHub\PSOG.UI\PSOG.Common\bin\Debug\PSOG.Entity.dll
+F:\GitHub\PSOG.UI\PSOG.Common\bin\Debug\PSOG.Entity.pdb
+F:\GitHub\PSOG.UI\PSOG.Common\obj\Debug\PSOG.Common.csprojResolveAssemblyReference.cache
+F:\GitHub\PSOG.UI\PSOG.Common\obj\Debug\PSOG.Common.dll
+F:\GitHub\PSOG.UI\PSOG.Common\obj\Debug\PSOG.Common.pdb

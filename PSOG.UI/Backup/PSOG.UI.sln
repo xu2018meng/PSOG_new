@@ -1,15 +1,12 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PSOG.UI", "PSOG.UI\", "{971CDF48-D48F-40EC-B6C3-E5761652F3C9}"
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "F:\...\PSOG.UI\", "PSOG.UI\", "{971CDF48-D48F-40EC-B6C3-E5761652F3C9}"
 	ProjectSection(WebsiteProperties) = preProject
 		SccProjectName = ""
 		SccAuxPath = ""
 		SccLocalPath = ""
 		SccProvider = ""
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
 		ProjectReferences = "{88789740-DD2A-4D9B-B5C3-2212791FE8E8}|PSOG.Entity.dll;{40F5510F-7930-49BE-936F-846CDD6A54C9}|PSOG.Bizc.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/PSOG.UI"
 		Debug.AspNetCompiler.PhysicalPath = "PSOG.UI\"
@@ -47,16 +44,16 @@ Global
 		Release|Mixed Platforms = Release|Mixed Platforms
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Release|.NET.ActiveCfg = Debug|Any CPU
-		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Debug|.NET.ActiveCfg = Debug|.NET
+		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Debug|.NET.Build.0 = Debug|.NET
+		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Release|.NET.ActiveCfg = Debug|.NET
+		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Release|.NET.Build.0 = Debug|.NET
+		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{971CDF48-D48F-40EC-B6C3-E5761652F3C9}.Release|Mixed Platforms.Build.0 = Debug|.NET
 		{A8F1E8DE-B765-4449-9511-BB5B54BF3A23}.Debug|.NET.ActiveCfg = Debug|Any CPU
 		{A8F1E8DE-B765-4449-9511-BB5B54BF3A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A8F1E8DE-B765-4449-9511-BB5B54BF3A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
